@@ -120,13 +120,14 @@
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Desenvolvimento de projetos
+- Apresentação dos Wireframes para o professor
 
 ---
 ## 02/04/2026
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Treinamento em comunicação técnica
-- Apresentação do projeto Caminho Vivo 
+- Apresentação do projeto Caminho Vivo - Talisson
 
 ---
 ## 07/04/2026
