@@ -4,9 +4,9 @@
 - [x] [12/03/2026 - Parâmetros dos projetos - definição de equipes](#12032026)
 - [x] [17/03/2026 - Organização - projetos](#17032026)
 - [x] [24/03/2026 - Estruturação dos trabalhos](#24032026)
-- [ ] [26/03/2026 - Organização - gitprojects - marlon](#26032026)
+- [x] [26/03/2026 - Organização - gitprojects - marlon](#26032026)
 - [ ] [31/03/2026 - Desenvolvimento de projetos](#31032026)
-- [ ] [02/04/2026 - Treinamento em comunicação técnica](#02042026)
+- [ ] [02/04/2026 - Treinamento em comunicação técnica - Caminhos Vivos](#02042026)
 - [ ] [07/04/2026 - Desenvolvimento de projetos](#07042026)
 - [ ] [09/04/2026 - Treinamento em comunicação técnica](#09042026)
 - [ ] [14/04/2026 - Desenvolvimento de projetos](#14042026)
@@ -127,7 +127,7 @@
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Treinamento em comunicação técnica
-- Apresentação do projeto Caminho Vivo
+- Apresentação do projeto Caminho Vivo 
 
 ---
 ## 07/04/2026
