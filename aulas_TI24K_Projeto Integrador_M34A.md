@@ -5,7 +5,7 @@
 - [x] [17/03/2026 - Organização - projetos](#17032026)
 - [x] [24/03/2026 - Estruturação dos trabalhos](#24032026)
 - [x] [26/03/2026 - Organização - gitprojects - marlon](#26032026)
-- [ ] [31/03/2026 - Desenvolvimento de projetos](#31032026)
+- [x] [31/03/2026 - Desenvolvimento de projetos](#31032026)
 - [ ] [02/04/2026 - Treinamento em comunicação técnica - Caminhos Vivos](#02042026)
 - [ ] [07/04/2026 - Desenvolvimento de projetos](#07042026)
 - [ ] [09/04/2026 - Treinamento em comunicação técnica](#09042026)
@@ -96,7 +96,7 @@
 [↑ Voltar para o Índice](#índice--checklist)
 
 
-[Empresa FazSite - Problemas processo de desenvolvimento de software.](https://www.youtube.com/watch?v=QPiR8jTMLdI)
+[FazSite - Nível 1 - Problemas processo de desenvolvimento de software.](https://www.youtube.com/watch?v=QPiR8jTMLdI)
 
 - Definição das equipes
 - Foi solicitado que as equipes fizessem wireframes e DER.
@@ -120,7 +120,14 @@
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Desenvolvimento de projetos
+
+### Ter um método é importante
+[Faz site - Nível 2](https://youtu.be/PiQh_bzoJoc?si=xAVOt9I2eQtfTe6s)
+
+Mesmo que o método seja incompleto, vale a pena.
+
 - Apresentação dos Wireframes para o professor
+  
 
 ---
 ## 02/04/2026
