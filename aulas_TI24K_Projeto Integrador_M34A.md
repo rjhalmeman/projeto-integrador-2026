@@ -143,6 +143,7 @@ Mesmo que o método seja incompleto, vale a pena.
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Desenvolvimento de projetos
+- Apresentação dos DERs para o professor
 
 ---
 ## 09/04/2026
