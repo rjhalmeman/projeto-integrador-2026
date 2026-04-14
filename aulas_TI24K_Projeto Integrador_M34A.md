@@ -8,8 +8,8 @@
 - [x] [31/03/2026 - Desenvolvimento de projetos](#31032026)
 - [x] [02/04/2026 - Treinamento em comunicação técnica - Caminhos Vivos](#02042026)
 - [x] [07/04/2026 - Desenvolvimento de projetos](#07042026)
-- [ ] [09/04/2026 - Treinamento em comunicação técnica](#09042026)
-- [ ] [14/04/2026 - Desenvolvimento de projetos](#14042026)
+- [x] [09/04/2026 - Treinamento em comunicação técnica](#09042026)
+- [x] [14/04/2026 - Desenvolvimento de projetos](#14042026)
 - [ ] [16/04/2026 - Treinamento em comunicação técnica](#16042026)
 - [ ] [23/04/2026 - Treinamento em comunicação técnica](#23042026)
 - [ ] [28/04/2026 - Desenvolvimento de projetos](#28042026)
@@ -146,20 +146,33 @@ Mesmo que o método seja incompleto, vale a pena.
 
 - Desenvolvimento de projetos
 - Apresentação dos DERs para o professor
+- (equipe sistema financeiro)
 
 ---
 ## 09/04/2026
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Treinamento em comunicação técnica
+- apresentação do Marcelo (documentação)
 
 ---
 ## 14/04/2026
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Desenvolvimento de projetos
+- Apresentação dos DERs para o professor
+-  Maria Eduarda,Mariana, José, Ralielly, Emanuelle, Daniela e Rafaella
+
+--- 
+
+Emanuel, ⁠Emilly, ⁠Isabely, ⁠Marjory, ⁠Ryan, ⁠Samara e ⁠Yasmym
+
+--- 
+
+ Gabriel, João Vitor, João Pedro, Bruno, Antonio e Erick
 
 ---
+
 ## 16/04/2026
 [↑ Voltar para o Índice](#índice--checklist)
 
