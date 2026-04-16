@@ -10,7 +10,7 @@
 - [x] [07/04/2026 - Desenvolvimento de projetos](#07042026)
 - [x] [09/04/2026 - Treinamento em comunicação técnica](#09042026)
 - [x] [14/04/2026 - Desenvolvimento de projetos](#14042026)
-- [ ] [16/04/2026 - Treinamento em comunicação técnica](#16042026)
+- [x] [16/04/2026 - Treinamento em comunicação técnica](#16042026)
 - [ ] [23/04/2026 - Treinamento em comunicação técnica](#23042026)
 - [ ] [28/04/2026 - Desenvolvimento de projetos](#28042026)
 - [ ] [30/04/2026 - Treinamento em comunicação técnica](#30042026)
@@ -178,6 +178,8 @@ GymManager - Emanuel, ⁠Emilly, ⁠Isabely, ⁠Marjory, ⁠Ryan, ⁠Samara e �
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Treinamento em comunicação técnica
+- Apresentação do Vitor - tema: Banco de Dados
+- Apresentação do Pedro Tunes - tema: backend
 
 ---
 ## 23/04/2026
