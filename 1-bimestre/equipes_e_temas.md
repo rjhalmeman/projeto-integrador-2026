@@ -8,7 +8,7 @@
 
 --- 
 
-## Projeto: MoneyControl
+## Projeto: Money Control
  - Eduardo 
  - Hiago
  - Andrei
