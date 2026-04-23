@@ -149,7 +149,7 @@ Cada integrante da equipe deve produzir um relatório contendo:
 - Máximo: 3 páginas  
 - Formato: **Markdown (.md)**
 
-O relatório deve ser salvo na pasta: **Documentação**
+O relatório deve ser salvo na pasta: **Documentação**. Padronizem os nomes NomeIntegranteEquipe-Relatorio-1Bimestre.md
 
 ---
 
