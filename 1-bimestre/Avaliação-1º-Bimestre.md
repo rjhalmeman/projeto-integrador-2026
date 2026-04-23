@@ -1,9 +1,9 @@
 # DW1 - 4º Bimestre - Avaliação (Projeto) - 2025
 
 ## 📅 Datas de Entrega
-**07/05/2026** - terça-feira (duas equipes)
+**07/05/2026** - terça-feira (Sellf e Odonto Top)
 
-**09/05/2026** - quinta-feira (duas equipes)
+**09/05/2026** - quinta-feira (GIM IO e Money Control)
 
 ---
 
