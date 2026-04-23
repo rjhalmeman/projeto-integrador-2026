@@ -1,4 +1,4 @@
-## ## Projeto: Caminho Vivo
+## Projeto: Caminhos Vivos
  - Marcelo
  - Marlon
  - Talisson
@@ -19,7 +19,7 @@
 
 --- 
 
-## Projeto: 
+## Projeto: Odonto Top
  - Maria Eduarda 
  - Mariana 
  - José
@@ -30,7 +30,7 @@
 
 --- 
 
-## Projeto:
+## Projeto: Gym IO
 - Emanuel 
 - ⁠Emilly
 - ⁠Isabely
@@ -41,7 +41,7 @@
 
 --- 
 
-## Projeto:
+## Projeto: Sellf
  - Gabriel
  - João Vitor
  - João Pedro

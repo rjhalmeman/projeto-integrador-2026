@@ -1,13 +1,15 @@
 # DW1 - 4º Bimestre - Avaliação (Projeto) - 2025
 
 ## 📅 Data de Entrega
-**07/05/2026**
+**07/05/2026** (duas equipes)
+
+**09/05/2026** (duas equipes)
 
 ---
 
 ## 🎯 Objetivo
 
-Desenvolver e apresentar um sistema web completo, aplicando os conceitos estudados ao longo da disciplina.
+Desenvolver e apresentar um sistema web (parcial).
 
 O projeto terá valor de **5,0 pontos**.
 
