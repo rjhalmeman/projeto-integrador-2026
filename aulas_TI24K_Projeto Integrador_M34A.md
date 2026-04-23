@@ -11,7 +11,7 @@
 - [x] [09/04/2026 - Treinamento em comunicação técnica](#09042026)
 - [x] [14/04/2026 - Desenvolvimento de projetos](#14042026)
 - [x] [16/04/2026 - Treinamento em comunicação técnica](#16042026)
-- [ ] [23/04/2026 - Treinamento em comunicação técnica](#23042026)
+- [x] [23/04/2026 - Treinamento em comunicação técnica](#23042026)
 - [ ] [28/04/2026 - Desenvolvimento de projetos](#28042026)
 - [ ] [30/04/2026 - Treinamento em comunicação técnica](#30042026)
 - [ ] [05/05/2026 - Desenvolvimento de projetos](#05052026)
