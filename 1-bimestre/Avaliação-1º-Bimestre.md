@@ -1,9 +1,9 @@
 # DW1 - 4º Bimestre - Avaliação (Projeto) - 2025
 
-## 📅 Data de Entrega
-**07/05/2026** (duas equipes)
+## 📅 Datas de Entrega
+**07/05/2026** - terça-feira (duas equipes)
 
-**09/05/2026** (duas equipes)
+**09/05/2026** - quinta-feira (duas equipes)
 
 ---
 
@@ -23,7 +23,7 @@ O sistema deve conter, no mínimo:
 
 - 🔐 **Login de usuário**
   - Validação de credenciais no banco de dados
-  - Manutenção da sessão utilizando **cookies ou localStorage**
+  - Manutenção da sessão utilizando **cookies**
 
 - 🏠 **Menu principal**
   - Exibir o nome do usuário logado
@@ -59,7 +59,7 @@ backend/
 
 ### 💻 Frontend
 
-O frontend deve ser desenvolvido utilizando **uma das abordagens abaixo (escolher apenas uma):**
+O frontend deve ser desenvolvido utilizando **uma abordagens estruturante:**
 
 #### ✔️ Opção 1 (Recomendada)
 - React + Vite
@@ -73,14 +73,14 @@ O frontend deve ser desenvolvido utilizando **uma das abordagens abaixo (escolhe
 
 ## 🗃️ Banco de Dados
 
-- Utilizar banco relacional (ex: PostgreSQL)
+- Utilizar banco relacional (ex: PostgreSQL, MySql, etc) (recomendado)
 - O sistema deve realizar consultas reais no banco
 
 ---
 
 ## 📁 Repositório no GitHub
 
-O projeto deve ser versionado no GitHub.
+O projeto deve ser versionado no GitHub e gerenciado via git projects.
 
 - Adicionar o professor **rjhalmeman** como colaborador
 
@@ -91,20 +91,20 @@ O projeto deve ser versionado no GitHub.
 Criar uma pasta:
 
 ```
-/Documentacao
+/Documentação
 ```
 
 Essa pasta deve conter:
 
 ### 📄 1. Descrição do Sistema
-- Explicação do sistema proposto
-- Tecnologias utilizadas
+- Explicação do sistema proposto (sistema completo)
+- Tecnologias utilizadas 
 - Justificativa das escolhas
 
 ---
 
 ### 🖼️ 2. Wireframes
-- Telas do sistema (login, menu, CRUD)
+- Telas do sistema completo 
 - Pode ser:
   - Desenho à mão (escaneado)
   - Ou imagens/prints
@@ -149,11 +149,7 @@ Cada integrante da equipe deve produzir um relatório contendo:
 - Máximo: 3 páginas  
 - Formato: **Markdown (.md)**
 
-O relatório deve ser salvo na pasta:
-
-```
-/Documentacao
-```
+O relatório deve ser salvo na pasta: **Documentação**
 
 ---
 
@@ -161,7 +157,6 @@ O relatório deve ser salvo na pasta:
 
 - ✔️ Funcionamento do sistema
 - ✔️ Organização do código (estrutura e clareza)
-- ✔️ Uso correto das tecnologias
 - ✔️ Documentação completa
 - ✔️ Apresentação
 
