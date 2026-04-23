@@ -59,7 +59,7 @@ backend/
 
 ### 💻 Frontend
 
-O frontend deve ser desenvolvido utilizando **uma abordagens estruturante:**
+O frontend deve ser desenvolvido utilizando **uma abordagem estruturante:**
 
 #### ✔️ Opção 1 (Recomendada)
 - React + Vite
