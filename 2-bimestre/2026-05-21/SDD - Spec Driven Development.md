@@ -33,7 +33,7 @@ Em seu lugar, começa a ganhar força uma abordagem chamada **Spec Driven Develo
 - definição de escopo;
 - e organização do fluxo de trabalho
 
-passam a ocupar um papel central.
+...passam a ocupar um papel central.
 
 A ideia principal do vídeo é que:
 
