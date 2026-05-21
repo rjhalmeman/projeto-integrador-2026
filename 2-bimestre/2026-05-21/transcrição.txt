@@ -1,0 +1,1396 @@
+0:00
+Já faz mais ou menos seis meses que eu
+0:01
+gravei um vídeo que explodiu aqui no
+0:03
+canal falando sobre o fim do Vib Coding.
+0:05
+E nesse vídeo eu analisava um movimento
+0:07
+de mercado que estava acontecendo. Mundo
+0:10
+corporativo entendeu que vibe coding não
+0:12
+funcionava e agora uma nova abordagem de
+0:14
+se utilizar inteligência artificial
+0:16
+estava ganhando os holofotes, que é
+0:18
+justamente spec driven development. E
+0:20
+hoje eu vou falar justamente sobre isso.
+0:22
+Se você ainda usa IA de forma
+0:23
+desordenada, passa tempo tentando
+0:25
+corrigir o que ela gera para você, saiba
+0:27
+que agora você realmente precisa se
+0:29
+atualizar, porque a gente tá num outro
+0:31
+momento, um momento que sai da
+0:32
+experimentação e vai pra consolidação. E
+0:35
+você, como desenvolvedor, precisa se
+0:37
+atualizar. E esse vídeo aqui vai te
+0:39
+trazer um panorama muito legal para você
+0:41
+de fato entender o que é spec driven
+0:44
+development. Então, bora pro vídeo.
+0:55
+Olá, pessoal. Bora para mais um vídeo.
+0:56
+Seja muito bem-vindo ao Atequita Dev. Eu
+0:58
+sou Carol Atequita. A sua voz sensata em
+1:00
+meio ao caos que virou o mercado de
+1:02
+tecnologia. Porque se você busca
+1:03
+conteúdo pé no chão com base em
+1:05
+realidade, fundamento, sem especulação,
+1:08
+sem ruído, sem sensacionalismo, esse é o
+1:10
+canal para você. E a gente tem sempre
+1:11
+aqui um combinado, tá? Se você é raiz,
+1:13
+você sabe do que eu tô falando. Já deixa
+1:15
+aqui o comentário, porque o comentário
+1:16
+seu faz muita diferença para conteúdo.
+1:19
+Diz pro YouTube que esse conteúdo aqui é
+1:20
+relevante. Então deixa o seu comentário
+1:22
+e se você não sabe o que comentar, deixa
+1:24
+só um #spectgriving que eu vou saber que
+1:26
+você quis dar aquele apoio, combinado?
+1:28
+Agora bora pro conteúdo. Se você
+1:29
+acompanha esse movimento do mercado de
+1:31
+tecnologia, você sabe que a gente,
+1:33
+justamente, eu tava falando no início do
+1:34
+vídeo, a gente saiu dessa fase de
+1:36
+experimentação. Estamos em uma fase de
+1:37
+consolidação. Então não é sobre utilizar
+1:40
+o máximo de ferramentas possíveis, mas é
+1:41
+entender quais ferramentas fazem sentido
+1:44
+e utilizar muito bem essas ferramentas.
+1:46
+Então no começo, a gente utilizava IA
+1:48
+para poder fazer o nosso código. Você
+1:50
+pedia para Ia faz tal coisa e ela faz.
+1:52
+Só que a gente entendeu que à medida com
+1:54
+que a gente entra no universo ali do
+1:57
+desenvolvimento, onde você tem um
+1:59
+workflow muito bem estabelecido e aonde
+2:01
+você precisa da confiabilidade daquilo
+2:03
+que vai ser gerado no meio corporativo,
+2:05
+isso não funciona. Porque quando você
+2:06
+não fornece o contexto correto paraa
+2:08
+IAP, você de fato pode ter muitos erros
+2:11
+no output que ela gera. E aí eu vou te
+2:13
+dar um exemplo. Se você já trabalha com
+2:14
+tecnologia, tá trabalhando numa empresa
+2:16
+já faz algum tempo, dá uma volta e
+2:18
+começa a pensar como que foi o seu
+2:20
+primeiro dia nessa empresa ou seu
+2:22
+primeiro dia de programador comb
+2:24
+estagiário em um lugar novo. Como que
+2:26
+você fica no seu primeiro dia? Você não
+2:27
+tem contexto de nada. Então, uma simples
+2:29
+tarefa, um simples bug para ser
+2:31
+corrigido vai ter uma dificuldade
+2:32
+tremenda, porque você tá encontrando
+2:34
+ainda onde as questões estão sendo
+2:36
+posicionadas, você tá ainda se interando
+2:38
+em boas práticas ali que são utilizadas
+2:39
+aquele projeto nas tecnologias. Então
+2:41
+entende, no primeiro dia sem contexto
+2:44
+você rende zero de produtividade. Você
+2:47
+é, sei lá, 10% assertivo, mas com o
+2:49
+passar do tempo, quando você fica muito
+2:51
+tempo no projeto e nós humanos somos
+2:53
+sensacionais porque a gente consegue
+2:55
+guardar esse background de contexto
+2:57
+gigantesco que a máquina nunca vai
+2:58
+conseguir copiar. Quando você vai
+3:00
+guardando esse contexto enorme, chega
+3:02
+numa parte que você olha ali pro bug e
+3:04
+tem que resolver, sabe exatamente a
+3:07
+linha, né? exatamente o caracter que
+3:09
+você tem que mudar para você corrigir
+3:11
+aquele problema. Por quê? Você já tem
+3:12
+toda a bagagem, você tem toda, todo o
+3:14
+background, todo o contexto que você
+3:16
+precisa para ser assertivo. E agora, por
+3:18
+que que você acha que com a IA é
+3:19
+diferente? Se você pede pra IA num
+3:22
+projeto aleatório, ah, IA, coloca um
+3:24
+botão ou faça uma feature tal. Se ela
+3:26
+não entende o contexto, ela é como se
+3:28
+fosse um estagiário no primeiro dia da
+3:30
+empresa. E foi isso que a gente começou
+3:32
+a entender nesse processo de
+3:34
+desenvolvimento com a inteligência
+3:35
+artificial. Por que que eu falo que a
+3:37
+gente começou a entender? Porque, cara,
+3:38
+é tudo muito novo. Então, ninguém nesse
+3:41
+momento pode cagar regra. A gente tá
+3:42
+meio que aprendendo junto. Só que de
+3:44
+fato, desde seis meses atrás, quando eu
+3:46
+gravei o vídeo do Vibe Coding até agora,
+3:48
+muita coisa foi se consolidando e um
+3:50
+movimento de mercado para entender que
+3:52
+especificação, que contexto é o mais
+3:55
+importante para que a gente tenha um
+3:57
+output confiável da inteligência
+3:59
+artificial. Se você entender isso, você
+4:01
+vai conseguir trabalhar com o Ia de uma
+4:03
+forma que você nunca trabalhou antes. E
+4:05
+é por isso que eu vejo uma distopia
+4:06
+muito grande. Tem profissionais que não
+4:08
+confiam na ia, que já tiveram
+4:10
+experiências muito ruins, aí usam muito
+4:12
+pouco, porque, cara, ela cuspiu um erro
+4:14
+muito grotesco e não sei que lá e tal.
+4:16
+Tem profissionais que são cegos, que
+4:18
+acham que a I é a melhor coisa que tem,
+4:20
+confie no 100% no que ela entrega. Eu
+4:22
+acho que nenhum extremo é muito bom. É
+4:24
+legal a gente ter uma harmonia nesse
+4:25
+sentido, mas você precisa pensar que às
+4:27
+vezes você tá tendo um output muito ruim
+4:29
+da inteligência artificial porque você
+4:31
+não consegue fornecer o contexto da
+4:33
+forma apropriada para conseguir extrair
+4:35
+o máximo que aquele modelo pode te
+4:37
+entregar. Tem uma diferença muito grande
+4:39
+entre usar IA de forma desorganizada e
+4:42
+utilizar IA de forma estruturada. E aí
+4:44
+que entra justamente o spec prevent
+4:47
+development. E se você traduzir, é
+4:48
+justamente uma abordagem de
+4:50
+desenvolvimento orientada por
+4:51
+especificação ou documentação, aonde a
+4:54
+documentação, a especificação é uma
+4:56
+parte muito importante do processo, onde
+4:59
+você vai definir isso muito antes de
+5:02
+colocar ali a mão na massa. Então o
+5:04
+planejamento, a estruturação ali do que
+5:07
+vai ser feito é muito mais importante do
+5:09
+que como vamos fazer na prática ali no
+5:12
+código. Então a especificação ela ocupa
+5:14
+um papel central dentro do fluxo de
+5:16
+desenvolvimento. A documentação ela é
+5:19
+muito importante pro fornecimento ali do
+5:21
+contexto. Aí já vem um ponto. Essa
+5:23
+abordagem ela não surgiu agora. A gente
+5:25
+tá vendo um holofote muito grande por
+5:27
+conta da inteligência artificial. Mas
+5:28
+isso vem, ó, desde 1969.
+5:32
+Eu nem existia, né, gente? Apesar de eu
+5:34
+já sou velhinha no mercado, mas nessa
+5:36
+época eu não existi ainda não. E em
+5:37
+2004, o Martin Fler lançou justamente um
+5:41
+livro chamado Specification by Example.
+5:44
+Então, muitos autores já escreveram
+5:46
+sobre essa prática, né, de documentação,
+5:48
+apesar de que a gente tem uma
+5:50
+controvérsia muito grande, né, tem muita
+5:52
+gente que não gosta de documentação,
+5:54
+porque uma documentação defasada acaba
+5:57
+atrapalhando, confundindo o time e
+5:59
+manter uma documentação, digamos assim,
+6:01
+coerente com o projeto, atualizar essa
+6:03
+documentação, a gente sabe que é muito
+6:04
+difícil no dia a dia, né? Então, tem
+6:06
+muitos desenvolvedores que falam assim:
+6:07
+"Cara, o código que tem que ser a
+6:08
+documentação, ele tem que ser descritivo
+6:11
+suficiente para ele se autodocumentar".
+6:12
+Eu concordo com isso. O código, ele tem
+6:14
+que ser muito bem estruturado, ele tem
+6:15
+que est descritivo para você não
+6:17
+precisar ali de apoio, de documentação.
+6:19
+Mas o código ele não fala por si só em
+6:22
+decisões técnicas que foram tomadas em
+6:25
+todo o contexto e background que teve
+6:27
+aquele projeto, né, em diretrizes e tudo
+6:30
+mais. Então assim, eu acho que o código
+6:31
+por si só ele não resolve essa questão
+6:34
+de contexto que é muito importante e que
+6:36
+nós temos. Quando a gente vai
+6:38
+desenvolver ali no projeto, a gente
+6:39
+carrega toda essa bagagem que a gente
+6:41
+tem dentro do projeto, dentro da
+6:43
+empresa, para entender as guidelines,
+6:45
+para entender como aquilo funciona
+6:46
+aquela empresa. E isso, de fato, se você
+6:47
+pensar, isso não é passado para IA se a
+6:50
+gente usa ela de uma forma
+6:52
+desestruturada. Então, de fato, muitas
+6:53
+vezes você compara o que eu escreveria
+6:56
+com o que a IA escreveria, talvez a
+6:58
+diferença tá muito na diferença de
+7:00
+contexto. Eu tenho muito mais contexto
+7:02
+do que a Ia tem quando eu peço para ela
+7:04
+fazer alguma coisa. Inclusive, eu vou
+7:06
+dar um exemplo que talvez já tenha
+7:07
+acontecido com você e você já tenha
+7:08
+utilizado specven development no seu
+7:10
+time. Sabe quando o time de back endato
+7:14
+das APIs? Então você estrutura ali o
+7:16
+contrato das APIs e tal, mesmo antes
+7:18
+delas estarem prontas. Então você tem um
+7:19
+contrato, né, que foi estabelecido, que
+7:21
+vai ser, digamos assim, seguido e ali o
+7:23
+frontend consegue seguir com a
+7:24
+implementação, sem precisar da
+7:26
+implementação do back end. Essa é uma
+7:27
+forma bem sensória de implementação do
+7:29
+spec Driven development. você partiu de
+7:31
+uma especificação e de uma documentação,
+7:34
+aí depois você faz ali a implementação.
+7:36
+Eu tenho visto muita gente perguntando
+7:38
+se o mercado de TI saturou. Na verdade,
+7:40
+o mercado não saturou, mas o
+7:42
+profissional genérico sim. saber o
+7:44
+básico, os fundamentos continua
+7:45
+importante, mas isso virou
+7:46
+pré-requisito. E quando a gente fala em
+7:48
+faixas salariais, como 15, 30% que
+7:51
+aparece nos relatórios da Robert H, a
+7:53
+gente tá falando em adquirir habilidades
+7:55
+de inteligência artificial e dados
+7:57
+principalmente. Mas agora tem um ponto
+7:59
+importante. Quando a gente fala de a, a
+8:01
+gente não tá falando de uma IA genérica
+8:02
+que falam por aí, né? É por isso que
+8:04
+muita gente tenta fazer uma
+8:05
+especialização e acaba se frustrando. E
+8:07
+eu gosto bastante de falar da Trip isso.
+8:10
+Eles fazem parte de uma empresa global
+8:12
+chamada Nebius, que fornece
+8:13
+infraestrutura de a para gigantes desse
+8:16
+setor, como Open AI, Meta e entre
+8:18
+outras. Então a Turpity ela vai oferecer
+8:21
+três MBAs diferentes para perfis de
+8:23
+pessoas diferentes. Por exemplo, o MBA
+8:26
+DS and AI, que vai ser para quem quer
+8:28
+realmente se aprofundar no lado técnico,
+8:30
+criar modelos de verdade, machine
+8:32
+learning, NPL, visão computacional do
+8:34
+zero. Temos o MBA de data analys and AI,
+8:38
+que é focado em análise de dados e
+8:40
+automações. E tem também o IAP para
+8:42
+negócios, que é justamente voltado para
+8:44
+essa visão estratégica de produtos com
+8:46
+inteligência artificial. Para cada um
+8:48
+desses MBAs, você encontra uma
+8:50
+combinação divisão prática, portfólio e
+8:53
+um MBA reconhecido pelo MAC, inclusive
+8:55
+nota 5, e também reconhecido
+8:57
+internacionalmente. Por que
+8:59
+internacionalmente? Porque a Tripon ela
+9:00
+é uma escola americana, então nos seus
+9:02
+MBAs ela fornece um certificado da
+9:04
+Arizona State University que é
+9:06
+justamente reconhecido
+9:08
+internacionalmente. Aqui na descrição do
+9:09
+vídeo, no QRCode que eu vou colocar aqui
+9:11
+na tela, você encontra um link pode
+9:13
+conferir a ementa completa do curso e
+9:15
+pode entrar em contato com a equipe para
+9:17
+poder tirar aí as suas dúvidas. E se
+9:19
+você já for fazer a sua matrícula, né,
+9:20
+não esquece de utilizar o meu cupom
+9:22
+tequita, que te garante ali um desconto
+9:24
+especial. Mas é claro que quando a gente
+9:26
+leva isso para a nível da IA, a gente
+9:28
+chega em outro patamar. E por que que
+9:30
+essa abordagem é tão importante quando a
+9:33
+gente fala em IA? Porque a gente já
+9:34
+entendeu que o contexto importa muito
+9:37
+pra qualidade do código que é gerado.
+9:39
+Assim como eu expliquei, a Iá sem
+9:40
+contexto é um estagiário no primeiro dia
+9:43
+de trabalho. Por melhor que seja o
+9:44
+modelo que você está utilizando, se você
+9:47
+não sabe estruturar muito bem o contexto
+9:48
+que você fornece para ele, você não vai
+9:50
+ter um resultado positivo. Por quê?
+9:52
+Porque a Iá, ela entende só o que está
+9:54
+explícito. Ela não vai entender as
+9:56
+entrelinhas, digamos assim. E nós
+9:58
+humanos, a gente não só enxerga ali,
+10:00
+entendeinhas, como a gente consegue
+10:02
+preencher essas lacunas socialmente.
+10:03
+Então, se eu tô trabalhando num projeto
+10:06
+e aí eu tenho uma dificuldade, não
+10:07
+entendi isso muito bem, eu posso
+10:08
+conversar com outras pessoas e entender
+10:10
+aquele contexto. O fato é que a IA
+10:12
+muitas vezes ela vai inferir alguma
+10:14
+coisa, ela vai, digamos assim, ela vai e
+10:16
+deduzir alguma coisa a partir das
+10:18
+informações que ela tem acesso. E é
+10:20
+justamente aí que tá o problema. Então,
+10:21
+na prática, a boa especificação, ela vai
+10:24
+ajudar a IA em seis pontos muito
+10:27
+importantes. Primeiro, definição de
+10:29
+scope. Sabe, já aconteceu com você de
+10:30
+você utilizar a IA para poder fazer uma
+10:32
+coisa, ela refatorou parte do projeto
+10:34
+inteiro para poder fazer aquela
+10:35
+implementação? Muitas vezes é justamente
+10:38
+a falta de definição do escopo da onde
+10:41
+pontualmente ela deveria atuar. A
+10:43
+segunda é a ambiguidade, você
+10:45
+especificar de um jeito que não fica
+10:46
+ambíguo. Por exemplo, ah, deixa esse
+10:48
+código mais robusto ou melhore a
+10:50
+experiência do usuário. Isso aqui é
+10:52
+muito ambíguo, então tem que ser muito
+10:53
+direto, muito específico. O terceiro
+10:55
+ponto é quebrar o trabalho. A gente já
+10:57
+sabe que a IA performa muito melhor em
+10:59
+tesques menores. Então, se você, por
+11:01
+exemplo, quer implementar uma feature e
+11:03
+você pede para gerar essa feature já de
+11:05
+cara, você dá a especificação para ela
+11:07
+poder gerar essa feature. Se for uma
+11:09
+picture grande, você sabe que muitas
+11:11
+vezes vai ter um grande retrabalho, uma
+11:13
+ida e volta de consertar isso, consertar
+11:15
+aquilo, porque de repente ela pode se
+11:16
+perder do contexto, a janela de contexto
+11:18
+pode ficar muito maior do que ela
+11:20
+consegue lidar e aí você começa a ter
+11:22
+problemas. Então, quebrarem tarefas
+11:24
+menores muito bem especificadas é a
+11:26
+melhor forma de você poder utilizar
+11:28
+esses modelos. E aí já vou falar da
+11:30
+quarta, né, que é preservar o contexto,
+11:32
+né? Quando você tem essa especificação,
+11:34
+as especificações, né, elas já são
+11:36
+contexto para você poder trabalhar.
+11:38
+Então não importa se você tá utilizando
+11:39
+múltiplos agentes, se você fechou a
+11:41
+sessão, as informações do contexto elas
+11:43
+vão estar vivas ali dentro do projeto. O
+11:46
+quinto ponto é permitir validação.
+11:48
+Então, dentro dessa estrutura de
+11:49
+definição, você pode ter um contrato de
+11:51
+aceite para entender se o output da IA é
+11:54
+válido ou não. E o sexto ponto é
+11:56
+combater essa visão meio iludida que a
+11:59
+gente tem hoje, de quanto mais rápido a
+12:01
+gente move, né, mais a gente tá
+12:02
+entregando produtividade. Quando, na
+12:04
+verdade, muit das vezes, quanto mais
+12:06
+rápido a gente anda, mais rápido a gente
+12:08
+erra. Então, velocidade nesse sentido de
+12:10
+cupir código não quer dizer que a gente
+12:12
+tá sendo assertivo. Muitas vezes é
+12:14
+preciso ter um processo ali, é preciso
+12:16
+estruturar o seu processo para que você
+12:18
+consiga ter um resultado satisfatório.
+12:19
+Então o mercado ele tá se desenhando
+12:20
+para isso. Abrir um cursor da vida e
+12:23
+colocar um prompt qualquer para pedir
+12:25
+pro cursor fazer alguma coisa, isso é
+12:26
+muito simples. Agora utilizar IA de
+12:28
+forma estruturada é isso que as empresas
+12:30
+vão começar a cobrar. Inclusive eu
+12:32
+gravei um vídeo aqui no canal e não tem
+12:34
+muito tempo sobre o fim do lad code, tá?
+12:36
+Então os processos eletivos eles vão
+12:37
+mudar e as empresas vão começar a pedir
+12:40
+conhecimentos de como utilizar IA de
+12:42
+forma estruturada. Eu não tô falando
+12:44
+isso para te causar aquele fomo de cara,
+12:46
+preciso estudar agora, preciso metalizar
+12:48
+agora, até porque eu disse pra você, a
+12:49
+gente tá aprendendo junto. Estudo é
+12:51
+muito novo, mas é para você colocar aí
+12:53
+no seu radar, tipo, ah, cara, é uma
+12:54
+coisa que eu preciso olhar, de repente
+12:56
+eu não tô utilizando a IA de uma da
+12:57
+melhor forma possível. E eu posso
+12:59
+aprimorar isso sempre no seu tempo. Só
+13:01
+que assim como eu disse, essa abordagem
+13:03
+Spect Development ela não é nova, ela já
+13:06
+é utilizada no mercado de dinheiro de
+13:08
+software faz muito tempo, né? Só que
+13:10
+quando a gente leva pro desenvolvimento
+13:11
+com inteligência artificial, algumas
+13:13
+coisas existem alguns pontos de atenção.
+13:15
+Por quê? a gente tá falando de uma
+13:16
+documentação que não vai ser só lida por
+13:18
+humanos e ela tem que fazer parte de uma
+13:20
+forma viva do projeto. Então, eh, ela
+13:22
+não pode ser algo que vai ser esquecido
+13:24
+ali, o que tá fora de contexto. Ela tem
+13:26
+que fazer parte do fluxo de fato de
+13:28
+desenvolvimento e ela tem que ser
+13:30
+otimizada para que a IA consiga ler.
+13:32
+Então, é por isso que dentro ali desse
+13:34
+conceito de aplicação do spec Riven
+13:36
+Development no projeto, a gente tem o
+13:38
+que a gente chama de artefatos, né, que
+13:39
+é os arquivos. MD é onde você vai
+13:42
+definir planejamento, vai definir
+13:44
+guidelines, vai definir eh questões de
+13:46
+arquitetura, né? Você vai ter tudo
+13:48
+especificado ali e sempre atualizado
+13:50
+para que os seus agentes tenham sempre o
+13:52
+contexto que eles precisam para poder
+13:54
+atuar. No que que isso poupa tempo? Ao
+13:57
+invés de você ficar fornecendo um prompt
+13:59
+gigantesco para tentar dar um contexto
+14:01
+meia boca pro agente, ele vai encontrar
+14:04
+tudo com maior facilidade, porque você
+14:06
+tem essa documentação viva dentro do
+14:09
+projeto. E isso ajuda até no
+14:11
+entendimento do projeto para você
+14:12
+economizar tokens. Então, quando você
+14:14
+documenta, quando você tem essa
+14:16
+documentação, essa especificação, isso
+14:18
+ajuda até nisso. Já que eu falei em
+14:20
+artefato, que são esses documentos que
+14:22
+eu vou mostrar aqui para vocês depois,
+14:23
+essa passagem de artefato para artefato,
+14:26
+ela é muito importante. Na verdade, essa
+14:27
+passagem de etapa para etapa, ela é
+14:29
+muito importante, que é o que cada
+14:31
+artefato vai representar muitas vezes.
+14:33
+Que que eu tô dizendo em relação a isso?
+14:34
+Por exemplo, da ideia is vai virar uma
+14:36
+especificação. Da especificação, eu vou
+14:38
+fazer um planejamento. De um
+14:40
+planejamento, eu vou quebrar em tesques.
+14:42
+E, finalmente, com as tesques, eu vou
+14:44
+fazer a implementação. Então, entende
+14:46
+que tem todo um processo que você vai
+14:48
+até executar aquela tesque. Quando chega
+14:50
+na execução, o seu agente, ele já tem
+14:52
+todo o contexto que foi estabelecido
+14:54
+para que ele possa ser mais assertivo
+14:56
+ali na execução. E esse ponto de quebrar
+14:58
+tarefas é muito importante porque o
+14:59
+processo, né, quando a gente fala de
+15:02
+inteligência artificial, ele precisa de
+15:03
+intervenção. Então você precisa
+15:05
+estruturar e quebrar isso muito bem para
+15:07
+que você consiga ir validando em etapas.
+15:10
+Cara, se você pede para ir fazer uma
+15:11
+feature de uma vez e ela te entrega
+15:13
+aquele bolo de código, fica muito mais
+15:14
+difícil de você revisar e garantir a
+15:17
+qualidade daquilo. Agora, quando você
+15:18
+quebra em pequenas tesques, fica muito
+15:21
+mais fácil de você acompanhar e intervir
+15:23
+quando precisa intervir para corrigir
+15:25
+alguma coisa, sem ter que lá no fim
+15:27
+pedir pr ela refazer tudo que ela fez. É
+15:30
+incrível porque você vai ver que quando
+15:31
+você segue essa estrutura de fato, né,
+15:32
+quando você tem essa especificação muito
+15:34
+bem feita, cara, você pode dormir,
+15:36
+deixar irá trabalhando que você vai ver
+15:38
+que ela é muito mais assertiva, porque
+15:41
+você já especificou e deu todo o
+15:43
+contexto que ela precisa. Agora, pra
+15:44
+gente poder ver um exemplo concreto
+15:46
+disso, como que isso é utilizado de
+15:48
+fato, né, a gente tem o GitHub Speck
+15:50
+Kit, que é uma to kit que te permite
+15:52
+implementar essa abordagem, né, de spec
+15:54
+Riven Development, é, que te facilita a
+15:56
+implementação disso. Então, como que
+15:58
+funciona? Eu vou mostrar aqui para vocês
+15:59
+na prática. Esse é o repositório do
+16:02
+Speck Kit, do GitHub Speit. E ele é
+16:04
+basicamente uma to kit open source ali
+16:06
+que te ajuda a justamente implementar
+16:08
+spec Development, né? Então é, você vai
+16:10
+baixar uma CLIN, você vai instalar essa
+16:13
+CLINE aí no seu computador e a partir
+16:15
+disso você vai conseguir utilizar os
+16:17
+comandos para poder ali gerar a
+16:19
+estrutura do seu projeto. E aqui ele
+16:21
+mostra o exemplo que é bem simples.
+16:22
+Basicamente você vai utilizar um comando
+16:23
+para poder inicializar o projeto. Ele
+16:26
+vai criar a pasta e toda a estrutura que
+16:28
+eu vou mostrar aqui para vocês. Então, a
+16:30
+partir do momento que eu criei, eu até
+16:31
+criei um projetinho chamado Pomodoro
+16:33
+aqui, né, básico, exemplo básico ali de
+16:36
+programação, mas aí ele cria toda essa
+16:37
+estrutura de pastas. Ele vai criar o
+16:39
+agents, que basicamente é uma série de
+16:42
+skills. Por exemplo, ele tem skill aqui
+16:45
+para poder fazer eh implementação. Então
+16:47
+esse skill é para executar um uma um
+16:49
+plano de implementação, né, executando
+16:51
+todas as testes que foram definidas.
+16:53
+Então ele tem, digamos assim, um
+16:54
+playbook de o que ele vai fazer, né,
+16:56
+para poder executar ali aquele
+16:58
+planejamento. Tem uma skill de
+17:00
+planejamento. Então assim, ele já cria
+17:02
+com todas as skills que você precisa
+17:04
+para poder executar o seu projeto.
+17:05
+Então, lembra que eu falei que a
+17:06
+documentação é viva? é porque ele vai
+17:09
+gerar a documentação para cada feature
+17:11
+que você fizer. E aí, por exemplo, se a
+17:13
+gente for olhar aqui dentro da pasta
+17:15
+specify, a gente vai ver que tem uns
+17:16
+templates. Por exemplo, tem esse
+17:17
+template de spec template, que é o
+17:19
+template de especificação. Basicamente,
+17:22
+é um template para você criar a
+17:23
+especificação da feature que você vai
+17:26
+desenvolver. tem um template de
+17:28
+planejamento para definir o planejamento
+17:30
+ali. E aqui tá tudo muito bem
+17:33
+especificado até, digamos assim,
+17:35
+estrutura do projeto para que a IA
+17:38
+consiga trabalhar em cima disso. Agora,
+17:40
+Carol, eu vou ter que gerar isso tudo na
+17:42
+mão. Isso vai dar trabalho para caramba.
+17:43
+Olha a quantidade de arquivos que eu vou
+17:45
+ter que gerar. Não. Então essa é a
+17:47
+facilidade do GitHub Speck Kit, porque
+17:49
+ele vai gerar isso para você através dos
+17:52
+comandos. Tudo que você tem que fazer,
+17:54
+por exemplo, né? A gente tem vários
+17:56
+comandos, por exemplo, spec kit spec e
+17:58
+aí você vai descrever: "Eu quero criar
+17:59
+uma feature de pomodoro". Então,
+18:01
+basicamente a partir disso, o que que
+18:03
+ele vai fazer? Ele vai criar aqui nas
+18:05
+suas specs, né, uma pasta da sua
+18:07
+feature, né, Pomodoro Timer. E aí ele
+18:09
+vai criando para você cada arquivo.
+18:12
+Então você vai executando cada passo por
+18:14
+passo. Lembra que eu falei que cada
+18:15
+artefato acontece num passo diferente?
+18:18
+Então você sai da idealização, vem pra
+18:20
+especificação. Então o primeiro comando
+18:22
+que você vai executar é spec spec e
+18:24
+especificar o que você vai desenvolver.
+18:26
+No caso, eu falei um pomodoro para
+18:28
+controle de tempo, bem simples. E ele
+18:30
+escreveu tudo isso para mim, a user
+18:32
+story, né, a questão de validação. E
+18:34
+aqui você pode revisar, você pode
+18:36
+revisar, você pode implementar, você
+18:38
+pode ir interando com a IA para poder
+18:40
+escrever do seu jeito, mas ele já vai
+18:42
+escrever a especificação com base ali na
+18:45
+feature que você quer desenvolver. A
+18:47
+partir desse artefato de spec, você vai
+18:49
+fazer o planejamento. Então você vai
+18:51
+utilizar um outro comando, specit plan,
+18:53
+né? e ele vai planejar a partir desse
+18:56
+documento de especificação. Esse aqui é
+18:58
+o ponto mais importante, né, de você
+18:59
+intervir e realmente especificar a forma
+19:01
+que tem que ser feita, porque a partir
+19:02
+disso ele vai gerar um planejamento. E
+19:04
+aí já é um planejamento de execução. Por
+19:06
+exemplo, ele vai escolher tecnologias,
+19:09
+ele vai escolher a abordagem que vai ser
+19:10
+utilizada, a estrutura do projeto e aqui
+19:12
+ele vai quebrando isso. Depois do
+19:14
+planejamento, você vai gerar as tesques
+19:16
+e ele vai gerar essas tesques
+19:18
+automaticamente para você. Então vai
+19:19
+gerar todas as testes que serão
+19:21
+desenvolvidas, gera também toda a
+19:22
+estrutura da camada de model do seu
+19:24
+projeto, gera também essa parte de
+19:26
+research, que é pesquisar ali no
+19:28
+mercado, digamos assim, quais são as
+19:30
+melhores práticas. Por exemplo, decisão
+19:32
+um, que é construir um software lab, né,
+19:34
+em Typescript Beat, uma single page app.
+19:36
+Então, por que foi essa decisão foi
+19:38
+tomada? Ele vai explicar por quê? Porque
+19:39
+foi ter uma pesca de mercado, não sei
+19:41
+que lá, não sei que, não sei se lá.
+19:41
+Então, cada decisão técnica que foi
+19:43
+tomada vai estar aqui nesse research,
+19:45
+né? E as tesques que foram quebradas.
+19:47
+Então, a partir do ponto que essas
+19:48
+tesques foram geradas, aí você vai pedir
+19:50
+para ele executar essas tesques e aí
+19:53
+você vai acompanhando o desenvolvimento.
+19:55
+Mas entende o quanto isso fica muito
+19:56
+mais estruturado do que um jeito solto
+19:59
+de ficar pedindo aleatoriamente coisas
+20:01
+pra inteligência artificial? Porque no
+20:03
+fim das contas, se a gente for pensar no
+20:05
+processo de desenvolvimento, ele é
+20:06
+assim. Então o que acontece? O PO, ele
+20:09
+vai definir qual que é a feature,
+20:10
+digamos assim. Aí o time vai refinar
+20:12
+tecnicamente, vai fazer as escolhas
+20:14
+técnicas têm que ser feitas. Aí o time
+20:16
+vai quebrar e sem histórias para serem
+20:18
+feitas. Então é basicamente isso que a
+20:20
+gente tá trazendo, só aqui pros agentes
+20:22
+poderem trabalhar e em um nível mais
+20:24
+automatizado. Mas entende que todas as
+20:26
+informações que foram especificadas ali
+20:28
+também são úteis para nós humanos termos
+20:32
+contexto ali no projeto. Então acaba
+20:34
+sendo uma documentação viva do projeto
+20:37
+que se mantém. Esse tool kit, ele é só
+20:38
+um exemplo de como implementar isso, mas
+20:40
+o spec driven development é uma coisa
+20:42
+muito mais ampla e abrangente. É
+20:44
+simplesmente você colocar a
+20:46
+documentação, a especificação como
+20:49
+prioridade dentro do processo de
+20:51
+desenvolvimento. Assim como eu dei o
+20:52
+exemplo lá do contrato do back end com
+20:55
+frontend, essa também é uma forma de
+20:57
+utilizar, mas dentro da eu trouxe
+20:58
+justamente esse exemplo do GitHub Speck
+21:00
+Kit, que é uma forma muito mais palpável
+21:02
+da gente entender isso acontecendo de
+21:04
+fato de uma forma muito mais
+21:05
+automatizada e fácil de você poder
+21:08
+utilizar. Então assim, Spectri
+21:09
+Development é o futuro do
+21:12
+desenvolvimento com o IA. Aparentemente
+21:14
+parece que a gente tá caminhando para
+21:16
+isso. Assim como eu falei, a gente tá
+21:18
+consolidando ainda essas boas práticas.
+21:20
+As coisas podem mudar. Pode ser que ali
+21:22
+na frente a gente possa fornecer
+21:23
+contexto para ir de uma forma diferente.
+21:25
+Afinal a tecnologia vai evoluindo. Mas
+21:27
+esse é o caminho ali que a gente vê que
+21:29
+o mercado ele está amadurecendo nesse
+21:31
+sentido e resolve n problemas. Assim
+21:33
+como eu disse, se você usa IA hoje tá
+21:35
+tendo muito retrabalho, começa a pensar
+21:38
+se você não poderia estruturar melhor a
+21:39
+forma com que você está utilizando
+21:41
+inteligência artificial. Inclusive, eu
+21:42
+quero trazer um vídeo no canal aqui
+21:44
+sobre skills e agents. Se você quer esse
+21:47
+conteúdo, deixa aqui o comentário porque
+21:48
+eu quero mostrar um pouquinho para vocês
+21:50
+como que eu tenho utilizado isso, não só
+21:53
+para automatizar coisas para criação de
+21:55
+conteúdo, mas no workflow de
+21:57
+desenvolvimento mesmo. Inclusive assim,
+21:59
+eu gravei esse conteúdo porque vocês
+22:00
+pediram, tá? Eu tô sempre lendo os
+22:02
+comentários, vendo que vocês colocam lá
+22:04
+para trazer temas relevantes aqui para
+22:05
+vocês. Aliás, vamos combinar uma coisa.
+22:07
+Se você gostou desse conteúdo mais
+22:09
+teórico, senta o dedo no like, porque
+22:11
+esse é um sinal de que eu posso trazer
+22:13
+mais desse tipo de conteúdo. A internet
+22:15
+hoje tá abarrotada de gente falando de
+22:17
+temas de hype, não sei que lá,
+22:19
+especulação. Sempre que a gente tá esse
+22:21
+conteúdo mais pé no chão, mais teórico,
+22:23
+é legal ter o apoio da comunidade
+22:25
+também. Então, dá aquela força. Espero
+22:26
+que vocês tenham gostado. Agora você tem
+22:28
+uma visão muito legal do que é o specing
+22:31
+development. Espero que esse conteúdo te
+22:32
+tenha atiçado ali para que você aprenda
+22:35
+um pouco mais sobre como utilizar IA de
+22:37
+forma mais estruturada no processo de
+22:39
+desenvolvimento. A gente se vê em um
+22:41
+próximo vídeo, mas antes de eu me
+22:42
+despedir, é claro que eu vou recomendar
+22:44
+outros dois conteúdos para vocês
+22:45
+assistirem e maratonarem aqui o ATIF. Um
+22:48
+desses conteúdos, já que a gente tá num
+22:50
+vídeo mais teórico, eu falo sobre MCP e
+22:53
+eu explico para você o que de fato é
+22:55
+esse protocolo. E o outro conteúdo vai
+22:57
+ser uma recomendação do YouTube. A gente
+22:59
+se vê em um próximo vídeo e até mais
