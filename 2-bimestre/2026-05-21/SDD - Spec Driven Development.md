@@ -1,10 +1,12 @@
 # Spec Driven Development e o Futuro do Desenvolvimento com IA
 
-## material totalmente baseado no vídeo do canal Attekita Dev, https://youtu.be/cAcGrs7RHBM acessado em 18/05/2026.
+### Material baseado no vídeo do canal Attekita Dev, [link do vídeo](https://youtu.be/cAcGrs7RHBM) acessado em 18/05/2026.
+
+---
 
 ## 📋 Índice
 
-- [Resumo do Vídeo](#resumo-do-vídeo)
+- [Resumo](#resumo)
 - [Principais Conceitos](#principais-conceitos)
 - [Tópicos Abordados](#tópicos-abordados)
 - [O Problema do Uso Desorganizado da IA](#o-problema-do-uso-desorganizado-da-ia)
@@ -12,19 +14,19 @@
 - [Benefícios do Spec Driven Development](#benefícios-do-spec-driven-development)
 - [GitHub Spec Kit](#github-spec-kit)
 - [Fluxo Estruturado de Desenvolvimento](#fluxo-estruturado-de-desenvolvimento)
-- [Conclusões do Vídeo](#conclusões-do-vídeo)
+- [Conclusões](#conclusões-do-vídeo)
 - [Trecho da Transcrição Corrigida](#trecho-da-transcrição-corrigida)
 
 ---
 
-# Resumo do Vídeo
+# Resumo
 
-O vídeo apresenta uma análise sobre a evolução do uso de **Inteligência Artificial no desenvolvimento de software**.
+O material apresenta uma análise sobre a evolução do uso de **Inteligência Artificial no desenvolvimento de software**.
 
 Segundo a autora, o mercado está deixando para trás o chamado **“Vibe Coding”**, que representa um uso desorganizado da IA, baseado apenas em prompts aleatórios e pouca estrutura.
 
-
 Em seu lugar, começa a ganhar força uma abordagem chamada **Spec Driven Development** (**desenvolvimento orientado por especificação**), onde:
+
 - documentação;
 - contexto;
 - planejamento;
@@ -34,12 +36,15 @@ Em seu lugar, começa a ganhar força uma abordagem chamada **Spec Driven Develo
 passam a ocupar um papel central.
 
 A ideia principal do vídeo é que:
+
 > **IA sem contexto produz resultados ruins.**
 
 A autora compara a IA a um:
+
 > **“estagiário no primeiro dia de trabalho”**
 
 Ou seja:
+
 - sem contexto;
 - sem conhecimento do projeto;
 - sem histórico;
@@ -56,6 +61,7 @@ O vídeo também mostra como ferramentas como o **GitHub Spec Kit** ajudam a aut
 ## ✅ Vibe Coding
 
 Uso desorganizado da IA:
+
 - prompts aleatórios;
 - pouca documentação;
 - muito retrabalho;
@@ -66,6 +72,7 @@ Uso desorganizado da IA:
 ## ✅ Spec Driven Development
 
 Desenvolvimento guiado por:
+
 - especificações;
 - documentação;
 - contexto;
@@ -80,6 +87,7 @@ Desenvolvimento guiado por:
 A IA depende fortemente do contexto fornecido.
 
 Quanto melhor o contexto:
+
 - maior a qualidade do resultado;
 - menor o retrabalho;
 - maior a assertividade.
@@ -89,6 +97,7 @@ Quanto melhor o contexto:
 ## ✅ Documentação Viva
 
 A documentação:
+
 - não é algo esquecido;
 - participa do fluxo do projeto;
 - é atualizada continuamente;
@@ -101,11 +110,13 @@ A documentação:
 ## 1. O fim do “Vibe Coding”
 
 A autora explica que o mercado percebeu que:
+
 - apenas pedir código para IA não funciona bem;
 - IA sem estrutura gera muitos erros;
 - empresas precisam de previsibilidade.
 
 Segundo ela:
+
 > estamos saindo da fase de experimentação e entrando na fase de consolidação.
 
 ---
@@ -115,12 +126,14 @@ Segundo ela:
 Ela faz uma analogia muito importante:
 
 Um desenvolvedor no primeiro dia da empresa:
+
 - não conhece o projeto;
 - não entende as regras;
 - não conhece a arquitetura;
 - não entende o histórico.
 
 Logo:
+
 - produz pouco;
 - comete erros;
 - demora mais.
@@ -132,12 +145,14 @@ A IA funciona da mesma forma.
 ## 3. Diferença entre humanos e IA
 
 Humanos:
+
 - acumulam contexto;
 - entendem entrelinhas;
 - interpretam situações;
 - conseguem conversar para preencher lacunas.
 
 IA:
+
 - entende apenas o que está explícito;
 - infere informações;
 - pode interpretar errado;
@@ -148,10 +163,12 @@ IA:
 ## 4. O mercado está amadurecendo
 
 A autora afirma que:
+
 - o mercado não saturou;
 - o profissional genérico saturou.
 
 Agora:
+
 - saber fundamentos virou pré-requisito;
 - usar IA de forma estruturada virou diferencial.
 
@@ -164,6 +181,7 @@ A autora comenta problemas comuns do uso desorganizado:
 ## ❌ Problemas frequentes
 
 ### Escopo mal definido
+
 A IA altera partes inesperadas do projeto.
 
 ---
@@ -171,9 +189,11 @@ A IA altera partes inesperadas do projeto.
 ### Prompts ambíguos
 
 Exemplo ruim:
+
 > “Melhore esse código.”
 
 Exemplo ruim:
+
 > “Deixe mais robusto.”
 
 A IA não sabe exatamente o que isso significa.
@@ -183,11 +203,13 @@ A IA não sabe exatamente o que isso significa.
 ### Features grandes demais
 
 Pedir:
+
 - uma feature inteira;
 - um sistema completo;
 - uma grande refatoração
 
 em um único prompt tende a gerar:
+
 - perda de contexto;
 - retrabalho;
 - inconsistência.
@@ -197,6 +219,7 @@ em um único prompt tende a gerar:
 ### Falta de validação
 
 Sem critérios claros:
+
 - não existe garantia de qualidade;
 - fica difícil revisar;
 - aumenta o retrabalho.
@@ -208,6 +231,7 @@ Sem critérios claros:
 ## Definição
 
 **Spec Driven Development** é uma abordagem onde:
+
 - especificações;
 - documentação;
 - contratos;
@@ -220,12 +244,15 @@ vêm antes da implementação.
 ## Ideia principal
 
 Primeiro:
+
 - define-se o que será feito.
 
 Depois:
+
 - planeja-se como será feito.
 
 Somente então:
+
 - a implementação acontece.
 
 ---
@@ -233,6 +260,7 @@ Somente então:
 ## Papel central da documentação
 
 A documentação passa a conter:
+
 - decisões técnicas;
 - diretrizes;
 - arquitetura;
@@ -249,6 +277,7 @@ A documentação passa a conter:
 ## ✅ 1. Melhor definição de escopo
 
 A IA entende:
+
 - exatamente onde atuar;
 - exatamente o que alterar.
 
@@ -257,6 +286,7 @@ A IA entende:
 ## ✅ 2. Menos ambiguidades
 
 Especificações claras:
+
 - reduzem interpretações erradas;
 - melhoram a qualidade do output.
 
@@ -265,6 +295,7 @@ Especificações claras:
 ## ✅ 3. Quebra de tarefas
 
 A IA performa melhor em:
+
 - tarefas pequenas;
 - objetivos específicos;
 - etapas controladas.
@@ -274,6 +305,7 @@ A IA performa melhor em:
 ## ✅ 4. Preservação de contexto
 
 Mesmo:
+
 - fechando a sessão;
 - usando múltiplos agentes;
 - trocando de ferramenta;
@@ -285,6 +317,7 @@ o contexto continua documentado.
 ## ✅ 5. Melhor validação
 
 É possível criar:
+
 - critérios de aceite;
 - contratos;
 - validações objetivas.
@@ -294,9 +327,11 @@ o contexto continua documentado.
 ## ✅ 6. Menos retrabalho
 
 Velocidade sem estrutura:
+
 - gera erros mais rápido.
 
 Estrutura:
+
 - aumenta assertividade.
 
 ---
@@ -306,6 +341,7 @@ Estrutura:
 A autora apresenta o **GitHub Spec Kit** como exemplo prático.
 
 Ele é uma toolkit open source para:
+
 - implementar Spec Driven Development;
 - gerar documentação;
 - estruturar projetos;
@@ -316,6 +352,7 @@ Ele é uma toolkit open source para:
 # Estrutura Gerada pelo GitHub Spec Kit
 
 O sistema cria:
+
 - templates;
 - especificações;
 - planejamento;
@@ -330,6 +367,7 @@ O sistema cria:
 ## Etapa 1 — Ideia
 
 Exemplo:
+
 > “Criar um Pomodoro Timer.”
 
 ↓
@@ -337,6 +375,7 @@ Exemplo:
 ## Etapa 2 — Especificação
 
 O sistema gera:
+
 - user stories;
 - regras;
 - validações;
@@ -347,6 +386,7 @@ O sistema gera:
 ## Etapa 3 — Planejamento
 
 Define:
+
 - tecnologias;
 - arquitetura;
 - abordagem técnica;
@@ -357,6 +397,7 @@ Define:
 ## Etapa 4 — Quebra em Tasks
 
 As tarefas são divididas em:
+
 - pequenas partes;
 - etapas menores;
 - implementações específicas.
@@ -366,6 +407,7 @@ As tarefas são divididas em:
 ## Etapa 5 — Implementação
 
 Somente após:
+
 - contexto;
 - documentação;
 - planejamento;
@@ -386,6 +428,7 @@ A autora comenta que muitas equipes já usam conceitos semelhantes quando:
 - implementação acontece depois.
 
 Isso já é uma forma de:
+
 > desenvolvimento orientado por especificação.
 
 ---
@@ -393,21 +436,24 @@ Isso já é uma forma de:
 # Documentação Viva
 
 A documentação:
+
 - faz parte do projeto;
 - é atualizada constantemente;
 - mantém contexto acessível;
 - ajuda IA e humanos.
 
 Segundo a autora:
+
 > documentação não pode ser algo esquecido.
 
 ---
 
-# Conclusões do Vídeo
+# Conclusões
 
 ## O principal problema não é a IA
 
 O problema é:
+
 - usar IA sem contexto;
 - usar IA sem estrutura;
 - usar IA sem planejamento.
@@ -417,6 +463,7 @@ O problema é:
 ## O diferencial será o uso estruturado da IA
 
 As empresas passarão a exigir:
+
 - workflows organizados;
 - documentação;
 - engenharia de contexto;
@@ -427,6 +474,7 @@ As empresas passarão a exigir:
 ## O futuro aponta para processos estruturados
 
 A tendência do mercado é:
+
 - abandonar prompts aleatórios;
 - adotar pipelines organizados;
 - trabalhar com documentação viva;
@@ -434,7 +482,7 @@ A tendência do mercado é:
 
 ---
 
-# Trecho da Transcrição Corrigida
+# Trecho da Transcrição
 
 ## Introdução
 
