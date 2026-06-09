@@ -12,18 +12,18 @@
 - [x] [14/04/2026 - Desenvolvimento de projetos](#14042026)
 - [x] [16/04/2026 - Treinamento em comunicação técnica](#16042026)
 - [x] [23/04/2026 - Treinamento em comunicação técnica](#23042026)
-- [ ] [28/04/2026 - Desenvolvimento de projetos](#28042026)
-- [ ] [30/04/2026 - Treinamento em comunicação técnica](#30042026)
-- [ ] [05/05/2026 - Desenvolvimento de projetos](#05052026)
-- [ ] [07/05/2026 - Avaliação 1º Bimestre](#07052026)
-- [ ] [12/05/2026 - Apresentação de projetos](#12052026)
-- [ ] [14/05/2026 - Apresentação de projetos](#14052026)
-- [ ] [19/05/2026 - Apresentação de projetos](#19052026)
-- [ ] [21/05/2026 - Recuperação paralela](#21052026)
-- [ ] [26/05/2026 - Parâmetros dos projetos para 2º bimestre](#26052026)
-- [ ] [28/05/2026 - Desenvolvimento de projetos](#28052026)
-- [ ] [02/06/2026 - Desenvolvimento de projetos](#02062026)
-- [ ] [09/06/2026 - Desenvolvimento de projetos](#09062026)
+- [x] [28/04/2026 - Desenvolvimento de projetos](#28042026)
+- [x] [30/04/2026 - Treinamento em comunicação técnica](#30042026)
+- [x] [05/05/2026 - Desenvolvimento de projetos](#05052026)
+- [x] [07/05/2026 - Avaliação 1º Bimestre](#07052026)
+- [x] [12/05/2026 - Apresentação de projetos](#12052026)
+- [x] [14/05/2026 - Apresentação de projetos](#14052026)
+- [x] [19/05/2026 - Apresentação de projetos](#19052026)
+- [x] [21/05/2026 - Recuperação paralela](#21052026)
+- [x] [26/05/2026 - Parâmetros dos projetos para 2º bimestre](#26052026)
+- [x] [28/05/2026 - Desenvolvimento de projetos](#28052026)
+- [x] [02/06/2026 - Desenvolvimento de projetos](#02062026)
+- [x] [09/06/2026 - Desenvolvimento de projetos](#09062026)
 - [ ] [11/06/2026 - Treinamento em comunicação técnica](#11062026)
 - [ ] [16/06/2026 - Desenvolvimento de projetos](#16062026)
 - [ ] [18/06/2026 - Treinamento em comunicação técnica](#18062026)
@@ -253,17 +253,55 @@ GymManager - Emanuel, ⁠Emilly, ⁠Isabely, ⁠Marjory, ⁠Ryan, ⁠Samara e �
 
 - Desenvolvimento de projetos
 
+Vídeos sobre IA
+
 ---
 ## 09/06/2026
 [↑ Voltar para o Índice](#índice--checklist)
 
-- Desenvolvimento de projetos
+[Vídeo](https://youtu.be/v4hDemVdpcg)
+
+[Texto]()https://www.bbc.com/portuguese/articles/ckg1y1gzgypo)
+
+"A armadilha da carga cognitiva"
+A reportagem entrevista a especialista em educação Noelia Valle, que explica que a chave para um aprendizado eficiente não é o tempo de estudo, mas sim o uso inteligente da nossa memória de trabalho (a "RAM" do cérebro). Forçar o cérebro com muitas informações de uma vez só sobrecarrega essa memória, fazendo com que a maior parte do conteúdo seja perdida, como tentar encher uma garrafa com uma mangueira de incêndio.
+
+Os 4 Pontos Principais:
+A Memória de Trabalho é Limitada: Ela só consegue manipular de 5 a 9 "pedaços" de informação (chunks) por vez. A diferença entre um iniciante e um especialista é que o especialista consegue agrupar vários dados em um único conceito (chunk), liberando espaço para raciocinar.
+
+Menos é Mais: É melhor estudar 2 horas por dia, com pausas, ao longo de várias semanas, do que muitas horas seguidas. As pausas ajudam a consolidar a memória e a reduzir a fadiga mental (que é uma distração).
+
+Aprender é Pensar, não Reler: Tarefas "de manutenção" como reler ou grifar são pouco eficazes. O aprendizado verdadeiro acontece com tarefas de atualização, que forçam o cérebro a manipular a informação, como:
+
+Transformar um texto em um esquema ou desenho.
+
+Fazer autoavaliação e reescrever a resposta.
+
+Explicar o conteúdo para outra pessoa (ou para si mesmo).
+
+Fatores Externos Ajudam:
+
+Sono: Fundamental para consolidar a memória e "limpar" o cérebro.
+
+Ambiente: Um espaço organizado e sem notificações reduz a carga cognitiva desnecessária.
+
+Ritmo Biológico: Estudar no horário do dia em que você tem mais energia.
+
+Dica Prática Principal
+Ao terminar de ler ou estudar algo, explique o conceito com suas próprias palavras para alguém. Esse esforço de recuperar a informação é o que realmente fixa o aprendizado.
+
+Em resumo: não adianta forçar. O aprendizado eficaz é sobre respeitar os limites do seu cérebro, usar técnicas ativas e estudar de forma consistente e inteligente, não por longas horas seguidas.
+
+Se quiser, posso destacar as principais dicas em uma lista para você salvar ou imprimir.
+
 
 ---
 ## 11/06/2026
 [↑ Voltar para o Índice](#índice--checklist)
 
 - Treinamento em comunicação técnica
+Apresentação de backend
+
 
 ---
 ## 16/06/2026
