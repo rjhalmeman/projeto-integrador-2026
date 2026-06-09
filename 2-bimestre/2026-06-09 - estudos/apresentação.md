@@ -1,4 +1,4 @@
-# A armadilha da carga cognitiva: por que estudar mais tempo nem sempre te ajuda a aprender mais
+# A ARMADILHA DA CARGA COGNITIVA: POR QUE ESTUDAR MAIS TEMPO NEM SEMPRE TE AJUDA A APRENDER MAIS
 
 --- 
 
