@@ -1,3 +1,8 @@
+# A armadilha da carga cognitiva: por que estudar mais tempo nem sempre te ajuda a aprender mais
+
+--- 
+
+
 # APRENDER MELHOR NÃO É ESTUDAR MAIS
 
 - Mais horas ≠ mais aprendizado
