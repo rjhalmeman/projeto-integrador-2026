@@ -8,7 +8,7 @@
 
 --- 
 
-## Projeto: Money Control
+## Projeto: Fincontrol
  - Eduardo 
  - Hiago
  - Andrei
@@ -30,7 +30,7 @@
 
 --- 
 
-## Projeto: Gym IO
+## Projeto: GymIO
 - Emanuel 
 - ⁠Emilly
 - ⁠Isabely
