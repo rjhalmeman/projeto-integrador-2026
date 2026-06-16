@@ -4,15 +4,17 @@
 * **30/06/2026** – terça-feira (Data unificada para todas as equipes: **Sellf**, **Odonto Top**, **GYM IO** e **Money Control**).
 ---
 
-## 🎯 Objetivo Pedagógico
+## 🎯 Objetivo 
 
-O objetivo desta avaliação prática é consolidar os conhecimentos em **desenvolvimento web fullstack**, avançando na construção da arquitetura de um sistema real. Nesta etapa, o foco está na **persistência de dados** e na **modularização do código**, garantindo que a base estrutural do software seja sólida antes da implementação da regra de negócio principal.
+O objetivo desta avaliação prática é consolidar os conhecimentos em **desenvolvimento web fullstack**, avançando na construção da arquitetura de um sistema real. Nesta etapa, o foco está na **persistência de dados** e na **modularização do código**, garantindo que a base  do software seja sólida antes da implementação da regra de negócio principal.
 
-O projeto terá valor total de **5,0 pontos**.
+O projeto terá valor de 
+ até **5,0 pontos** para quem fizer apresentação no bimestre. 
+ até 10,0 pontos para quem já fez apresentação em outros bimestres ou não apresentou ainda.
 
 ## 📦 Funcionalidades Obrigatórias (Escopo do 2º Bimestre)
 
-O sistema deve apresentar um fluxo funcional integrado, contendo, no mínimo:
+O sistema deve apresentar no mínimo:
 
 ### 1. 🔐 Controle de Acesso (Autenticação)
 * **Validação de Credenciais:** O processo de login deve validar os dados informados contra os registros reais armazenados no **banco de dados**.
@@ -22,9 +24,9 @@ O sistema deve apresentar um fluxo funcional integrado, contendo, no mínimo:
 * **Contexto de Sessão:** Exibir de forma dinâmica o **nome do usuário autenticado**.
 * **Encerramento de Sessão:** Disponibilizar uma opção clara de **logout** para destruir o cookie de sessão e redirecionar o usuário com segurança.
 
-### 3. 🗂️ Persistência de Dados (CRUD Completo)
+### 3. 🗂️ Persistência de Dados (CRUD Completo) para todas as entidades que não sejam o núcleo do sistema.
 * **Operações Fundamentais:** Implementar o ciclo completo de **CRUD** (**Create, Read, Update e Delete**) para **todas as tabelas secundárias e de apoio** do banco de dados.
-* **A Regra da Tabela Nuclear:** **NÃO** deve ser implementado o CRUD da **tabela nuclear** (a tabela central e mais importante do modelo de negócios). O objetivo neste bimestre é dominar a manipulação das tabelas periféricas que dão suporte à entidade principal, preparando o terreno para as regras de negócio complexas do próximo ciclo.
+* **A Regra da Tabela Nuclear:** **NÃO** deve ser implementado o CRUD da **tabela nuclear** (a tabela central e mais importante do modelo de negócios). O objetivo neste bimestre é dominar a manipulação das tabelas periféricas que dão suporte à entidade principal, preparando o terreno para as regras de negócio complexas do próximo bimestre.
 
 ---
 
@@ -67,7 +69,7 @@ Para a construção da interface, a equipe deve optar por uma das duas abordagen
 
 ## 🗃️ Camada de Dados (Banco de Dados)
 
-* **Paradigma Relacional:** É obrigatório o uso de um **Sistema Gerenciador de Banco de Dados Relacional (SGBDR)**, como **PostgreSQL** ou **MySQL**.
+* usar um **Sistema Gerenciador de Banco de Dados (SGBD)**.
 
 ---
 
@@ -80,7 +82,7 @@ O ciclo de vida do desenvolvimento deve ser registrado e gerenciado via Git.
 
 ---
 
-## 📚 Documentação Técnica Obrigatória
+## 📚 Documentação Técnica
 
 No diretório raiz do projeto, deve ser criada, impreterivelmente, uma pasta chamada:
 
@@ -117,24 +119,23 @@ Instruções passo a passo para que qualquer desenvolvedor consiga rodar o proje
 
 ---
 
-## 🧠 Relatório Crítico Individual
+## 🧠 Relatório Individual
 
 O desenvolvimento de software envolve tomada de decisão e resolução de problemas. Portanto, **cada integrante da equipe** deve redigir um documento de autoavaliação contendo:
 
-* **Escopo Pessoal:** Atividades e artefatos efetivamente produzidos no projeto pelo aluno.
-* **Metacognição:** Conhecimentos teóricos e práticos adquiridos durante o bimestre.
-* **Resolução de Problemas:** Maiores dificuldades técnicas encontradas e a metodologia aplicada para superá-las.
+* Atividades e artefatos efetivamente produzidos no projeto pelo aluno.
+* Conhecimentos teóricos e práticos adquiridos durante o bimestre.
+* Maiores dificuldades técnicas encontradas e a metodologia aplicada para superá-las.
 
 ### 📏 Diretrizes do Relatório:
-* **Volume Extensional:** Mínimo de 1 página e máximo de 3 páginas.
-* **Formatação:** Arquivo de texto puro em formato **Markdown (.md)**.
-* **Padronização de Nomenclatura:** Salvar dentro da pasta `/Documentação` seguindo estritamente a máscara: `NomeIntegranteEquipe-Relatorio-2Bimestre.md`.
+*  Mínimo de 1 página e máximo de 3 páginas.
+*  Arquivo de texto puro em formato **Markdown (.md)**.
+*  Salvar dentro da pasta `/Documentação` seguindo estritamente a máscara: `NomeIntegranteEquipe-Relatorio-2Bimestre.md`.
 
 ---
 
 ## 📊 Critérios de Avaliação
 
-A nota final de **5,0 pontos**:
 
 1. **Funcionamento Integral:** Os CRUDs das tabelas secundárias estão operantes, estáveis e integrados ao banco de dados? O fluxo de login protege as rotas privadas?
 2. **Qualidade do Código:** Aplicação correta do padrão de arquitetura proposto, legibilidade, boas práticas de nomenclatura e ausência de códigos mortos.
