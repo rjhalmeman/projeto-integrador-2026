@@ -1,7 +1,10 @@
 # DW1 - 2º Bimestre - Avaliação (Projeto) - 2026
 
 ## 📅 Data de Entrega
-* **30/06/2026** – terça-feira (Data unificada para todas as equipes: **Sellf**, **Odonto Top**, **GYM IO** e **Money Control**).
+* **30/06/2026** – terça-feira (Data unificada para todas as equipes: **Sellf**, **Odonto Top**, **GYM IO** , **Money Control** e **Caminhos Vivos** ). 
+* Uma pessoa da equipe apresenta para o professor o que foi feito. Pode ser a mesma pessoa do bimestre anterior.
+* Temos 3 aulas no dia 30/06, são 150 minutos divididos em 5 equipes. Logo, até 30 minutos por equipe.
+* Todos vão apresentar no mesmo dia, deste modo, a ordem é irrelevante.
 ---
 
 ## 🎯 Objetivo 
