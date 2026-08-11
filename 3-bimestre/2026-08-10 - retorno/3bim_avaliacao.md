@@ -1,21 +1,21 @@
 # DW1 - 2º Bimestre - Avaliação (Projeto) - 2026
 
 ## 📅 Data de Entrega
-* **30/06/2026** – terça-feira (Data unificada para todas as equipes: **Sellf**, **Odonto Top**, **GYM IO** , **FinControl** e **Caminhos Vivos** ). 
+* **29/09/2026** – terça-feira (Data unificada para todas as equipes: **Sellf**, **Odonto Top**, **GYM IO** , **FinControl** e **Caminhos Vivos** ). 
 * Uma pessoa da equipe apresenta para o professor o que foi feito. Pode ser a mesma pessoa do bimestre anterior.
-* Temos 3 aulas no dia 30/06, são 150 minutos divididos em 5 equipes. Logo, até 30 minutos por equipe.
+* Temos 3 aulas no dia, são 150 minutos divididos em 5 equipes. Logo, até 30 minutos por equipe.
 * Todos vão apresentar no mesmo dia, deste modo, a ordem é irrelevante.
 ---
 
 ## 🎯 Objetivo 
 
-O objetivo desta avaliação prática é consolidar os conhecimentos em **desenvolvimento web fullstack**, avançando na construção da arquitetura de um sistema real. Nesta etapa, o foco está na **persistência de dados** e na **modularização do código**, garantindo que a base  do software seja sólida antes da implementação da regra de negócio principal.
+O objetivo desta avaliação prática é consolidar os conhecimentos em **desenvolvimento web fullstack**, avançando na construção da arquitetura de um sistema real. Nesta etapa, o foco está no **regra de negócio principal** e na **modularização do código**.
 
 O projeto terá valor de 
  até **5,0 pontos** para quem fizer apresentação no bimestre. 
  até 10,0 pontos para quem já fez apresentação em outros bimestres ou não apresentou ainda.
 
-## 📦 Funcionalidades Obrigatórias (Escopo do 2º Bimestre)
+## 📦 Funcionalidades Obrigatórias (Escopo do 3º Bimestre)
 
 O sistema deve apresentar no mínimo:
 
@@ -30,6 +30,13 @@ O sistema deve apresentar no mínimo:
 ### 3. 🗂️ Persistência de Dados (CRUD Completo) para todas as entidades que não sejam o núcleo do sistema.
 * **Operações Fundamentais:** Implementar o ciclo completo de **CRUD** (**Create, Read, Update e Delete**) para **todas as tabelas secundárias e de apoio** do banco de dados.
 * **A Regra da Tabela Nuclear:** **NÃO** deve ser implementado o CRUD da **tabela nuclear** (a tabela central e mais importante do modelo de negócios). O objetivo neste bimestre é dominar a manipulação das tabelas periféricas que dão suporte à entidade principal, preparando o terreno para as regras de negócio complexas do próximo bimestre.
+
+### 4. Regra de negócio (Núcleo do sistema)
+
+O sistema tem um objetivo principal, qual é esse objetivo? Há objetivos secundários?
+Como foi estruturado. Mostrar wireframes do que será desenvolvido.
+Mostrar integração com o sistema (CRUD's necessários para que funcione)
+
 
 ---
 
@@ -133,7 +140,7 @@ O desenvolvimento de software envolve tomada de decisão e resolução de proble
 ### 📏 Diretrizes do Relatório:
 *  Mínimo de 1 página e máximo de 3 páginas.
 *  Arquivo de texto puro em formato **Markdown (.md)**.
-*  Salvar dentro da pasta `/Documentação` seguindo estritamente a máscara: `NomeIntegranteEquipe-Relatorio-2Bimestre.md`.
+*  Salvar dentro da pasta `/Documentação` seguindo estritamente a máscara: `NomeIntegranteEquipe-Relatorio-3Bimestre.md`.
 
 ---
 
