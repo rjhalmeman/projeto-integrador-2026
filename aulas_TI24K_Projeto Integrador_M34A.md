@@ -331,9 +331,12 @@ Apresentação de backend
 
 - Desenvolvimento de projetos
 
----
+------------------------------------------------------------------------------------------------------ férias --------
 ## 11/08/2026
 [↑ Voltar para o Índice](#índice--checklist)
+
+- apresentação da avaliação do terceiro bimestre
+- próximos apresentadores
 
 - Desenvolvimento de projetos
 
