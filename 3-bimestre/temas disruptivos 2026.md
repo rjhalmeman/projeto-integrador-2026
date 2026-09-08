@@ -18,9 +18,6 @@ Novas defesas focadas em **proteger dados em uso** e **antecipar ameaças cibern
 ## 6. Computação de Borda (Edge AI) e Hardware Especializado
 O uso de **chips dedicados, GPUs e NPUs** diretamente em dispositivos locais (como celulares e sensores) reduz a dependência de grandes data centers para tarefas rápidas.
 
-## 7. Eficiência Energética em Data Centers
-Data centers avançados exigem soluções massivas de **energia sustentável** e **resfriamento**, tornando a eficiência energética um pilar central da computação.
-
 ## 8. Malha de Cibersegurança e Privacidade
 Com a expansão do uso de dados e ameaças automatizadas, a **cibersegurança** e a computação aliada à **privacidade** tornam-se prioridades estratégicas nas organizações.
 
@@ -75,9 +72,6 @@ O uso de **chatbots e algoritmos de IA** como ferramentas de primeiro contato ou
 ## 23. Ansiedade Digital e Hiperconectividade
 O esgotamento mental gerado pelo excesso de notificações, a **pobreza de foco** e a reação do cérebro a estímulos cotidianos interpretados como ameaças urgentes.
 
-## 24. Solidão na Era da Hiperconexão
-O paradoxo de se sentir **isolado** mesmo com o acesso constante a redes sociais e comunidades virtuais globais.
-
 ## 25. Neurodiversidade em Adultos
 O aumento expressivo de diagnósticos tardios de **autismo e TDAH**, exigindo novas abordagens de acolhimento e adaptação no cotidiano e no trabalho.
 
@@ -95,3 +89,17 @@ Aplicação de sistemas autônomos, análise preditiva e **tomada de decisão as
 
 ## 30. Robótica Avançada
 A **robótica avançada** combina inteligência artificial, sensores de última geração e hardware potente para permitir que máquinas tomem decisões complexas e interajam com o mundo real de forma autônoma e adaptativa, atuando em áreas como **indústria 4.0, exploração espacial, cirurgias remotas e logística inteligente**.
+
+
+
+--- 
+
+
+
+## 7. Eficiência Energética em Data Centers - Eduardo
+Data centers avançados exigem soluções massivas de **energia sustentável** e **resfriamento**, tornando a eficiência energética um pilar central da computação.
+
+
+## 24. Solidão na Era da Hiperconexão - Bruno Shiba
+O paradoxo de se sentir **isolado** mesmo com o acesso constante a redes sociais e comunidades virtuais globais.
+
