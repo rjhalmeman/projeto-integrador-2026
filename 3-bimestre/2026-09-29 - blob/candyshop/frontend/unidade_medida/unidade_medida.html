@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Unidade de Medida</title>
+    <link rel="stylesheet" href="unidade_medida.css">
+</head>
+
+<body onload="listar()">
+    <header>
+        <h1>Cadastro de Unidades de Medida</h1>
+        <p>Gerencie as unidades de medida do sistema.</p>
+    </header>
+
+    <main class="container-master">
+        <div class="conteudo-principal">
+            <section class="form-esquerda">
+                <h2>Dados da Unidade de Medida</h2>
+                
+                <label for="inputId_unidade_medida">Sigla / ID da Unidade (Até 2 letras)</label>
+                <div class="linha-id">
+                    <input type="text" name="inputId_unidade_medida" id="inputId_unidade_medida" maxlength="2" placeholder="Ex: KG" style="text-transform: uppercase;">
+                    <input type="button" value="Procure" id="btProcure" onclick="procure()">
+                    <input type="button" value="Inserir" id="btInserir" onclick="inserir()" style="display:none;">
+                    <input type="button" value="Alterar" id="btAlterar" onclick="alterar()" style="display:none;">
+                    <input type="button" value="Excluir" id="btExcluir" onclick="excluir()" style="display:none;">
+                </div>
+
+                <label for="inputNome_unidade_medida">Nome da Unidade</label>
+                <input type="text" name="inputNome_unidade_medida" id="inputNome_unidade_medida" placeholder="Ex: Quilograma">
+
+                <div id="divAviso">Informe a sigla (ex: KG, UN) e clique em Procure</div>
+
+                <div class="botoes-acao">
+                    <input type="button" value="Salvar" id="btSalvar" onclick="salvar()" style="display:none;">
+                    <input type="button" value="Cancelar" id="btCancelar" onclick="cancelarOperacao()" style="display:none;">
+                </div>
+            </section>
+        </div>
+
+        <section class="lista-unidades">
+            <h3>Unidades de Medida Cadastradas</h3>
+            <div id="outputSaida">Carregando...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sistema CRUD Unidades de Medida. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./unidade_medida.js"></script>
+</body>
+
+</html>

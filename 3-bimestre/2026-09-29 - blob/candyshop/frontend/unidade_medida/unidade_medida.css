@@ -1,0 +1,244 @@
+/* --- Reset Básico --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Variáveis de Cores --- */
+:root {
+    --cor-primaria: #2c3e50;
+    --cor-secundaria: #3498db;
+    --cor-secundaria-hover: #2980b9;
+    --cor-fundo: #f8f9fa;
+    --cor-texto: #333333;
+    --cor-aviso: #e74c3c;
+    --cor-borda: #ced4da;
+    --cor-branco: #ffffff;
+}
+
+/* --- Estrutura Geral --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Header Semântico --- */
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+}
+
+header p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+/* --- Main (Conteúdo Central) --- */
+main.container-master {
+    flex: 1;
+    width: 100%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* --- Agrupamento Flexível --- */
+.conteudo-principal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: var(--cor-branco);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+/* --- Section Esquerda (Formulário) --- */
+.form-esquerda {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-esquerda h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    color: var(--cor-primaria);
+    border-bottom: 2px solid var(--cor-secundaria);
+    padding-bottom: 0.5rem;
+}
+
+.form-esquerda label {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.form-esquerda input[type="text"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-esquerda input:focus {
+    outline: none;
+    border-color: var(--cor-secundaria);
+}
+
+.linha-id {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linha-id input[type="text"] {
+    width: 150px;
+}
+
+/* --- Botões --- */
+input[type="button"] {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+    background-color: var(--cor-secundaria-hover);
+}
+
+.botoes-acao {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* --- Aviso --- */
+#divAviso {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fce4e4;
+    color: var(--cor-aviso);
+    border-left: 5px solid var(--cor-aviso);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* --- Aside Direita --- */
+.form-direita {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-direita h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--cor-primaria);
+}
+
+.instrucao-imagem {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: 3px dashed var(--cor-borda);
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s, transform 0.3s;
+    background-color: #eee;
+}
+
+.img-container img:hover {
+    border-color: var(--cor-secundaria);
+    transform: scale(1.02);
+}
+
+/* --- Section Listagem --- */
+.lista-unidades {
+    background-color: var(--cor-branco);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.lista-unidades h3 {
+    margin-bottom: 1rem;
+    color: var(--cor-primaria);
+    border-bottom: 2px solid var(--cor-secundaria);
+    padding-bottom: 0.5rem;
+}
+
+#outputSaida {
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* --- Footer Semântico --- */
+footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+    .conteudo-principal {
+        flex-direction: column;
+    }
+    
+    .form-direita {
+        order: -1;
+        margin-bottom: 1.5rem;
+    }
+
+    .linha-id input[type="text"] {
+        flex: 1;
+        width: auto; 
+    }
+}

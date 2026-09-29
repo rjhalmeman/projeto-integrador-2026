@@ -1,0 +1,68 @@
+.
+├── backend
+│   ├── controllers
+│   │   ├── cargoController.js
+│   │   ├── clienteController.js
+│   │   ├── funcionarioController.js
+│   │   ├── pessoaController.js
+│   │   ├── produtoController.js
+│   │   └── unidadeMedidaController.js
+│   ├── database.js
+│   ├── routes
+│   │   ├── cargoRoutes.js
+│   │   ├── clienteRoutes.js
+│   │   ├── funcionarioRoutes.js
+│   │   ├── pessoaRoutes.js
+│   │   ├── produtoRoutes.js
+│   │   └── unidadeMedidaRoutes.js
+│   └── server.js
+├── criarEstrutura.sh
+├── documentacao
+│   ├── candyshop-202609010512-dump.sql
+│   ├── instrucoes_para_novos_cruds.md
+│   ├── postgres - candyshop - public.png
+│   └── prompt_continuar.md
+├── estrutura.txt
+├── frontend
+│   ├── cargo
+│   │   ├── cargo.css
+│   │   ├── cargo.html
+│   │   └── cargo.js
+│   ├── menu
+│   │   ├── menu.css
+│   │   ├── menu.html
+│   │   └── menu.js
+│   ├── pessoa
+│   │   ├── pessoa.css
+│   │   ├── pessoa.html
+│   │   └── pessoa.js
+│   ├── produto
+│   │   ├── produto.css
+│   │   ├── produto.html
+│   │   └── produto.js
+│   └── unidade_medida
+│       ├── unidade_medida.css
+│       ├── unidade_medida.html
+│       └── unidade_medida.js
+├── imagens
+│   ├── 10.png
+│   ├── 11.png
+│   ├── 1.png
+│   ├── 22.png
+│   ├── 2.png
+│   ├── 3.png
+│   ├── 4.png
+│   ├── 50.png
+│   ├── 51.png
+│   ├── 5.png
+│   ├── 6.png
+│   ├── 7.png
+│   ├── 8.png
+│   ├── 9.png
+│   └── silhueta.png
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+
+11 directories, 54 files

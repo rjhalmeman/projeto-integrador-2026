@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciador de Foto de Pessoa</title>
+  <link rel="stylesheet" href="foto_pessoa.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📸 Foto da Pessoa</h2>
+
+    <form id="formFoto">
+      <div class="form-group">
+        <label for="selectPessoa">Selecione a Pessoa:</label>
+        <select id="selectPessoa" required>
+          <option value="">Carregando pessoas...</option>
+        </select>
+      </div>
+
+      <div class="preview-container">
+        <img id="imgPreview" src="https://via.placeholder.com/180?text=Sem+Foto" alt="Pré-visualização">
+      </div>
+
+      <div class="form-group">
+        <label for="inputFoto">Escolha uma nova foto:</label>
+        <input type="file" id="inputFoto" accept="image/*" required>
+      </div>
+
+      <div class="buttons">
+        <button type="submit" id="btnSalvar">Salvar Foto</button>
+        <button type="button" id="btnDeletar" class="btn-danger" style="display:none;">Remover Foto</button>
+      </div>
+    </form>
+
+    <div id="mensagem" class="mensagem"></div>
+  </div>
+
+  <script src="foto_pessoa.js"></script>
+</body>
+</html>

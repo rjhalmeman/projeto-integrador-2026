@@ -1,0 +1,332 @@
+/* --- Reset Básico --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- Variáveis de Cores --- */
+:root {
+    --cor-primaria: #2c3e50;
+    --cor-secundaria: #3498db;
+    --cor-secundaria-hover: #2980b9;
+    --cor-fundo: #f8f9fa;
+    --cor-texto: #333333;
+    --cor-aviso: #e74c3c;
+    --cor-borda: #ced4da;
+    --cor-branco: #ffffff;
+}
+
+/* --- Estrutura Geral --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- Header Semântico --- */
+header {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.2rem;
+}
+
+/* --- Main (Conteúdo Central) --- */
+main {
+    flex: 1;
+    width: 100%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* --- Seções em Cards --- */
+.form-section,
+.list-section {
+    background-color: var(--cor-branco);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+}
+
+.form-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    color: var(--cor-primaria);
+    border-bottom: 2px solid var(--cor-secundaria);
+    padding-bottom: 0.5rem;
+}
+
+/* --- Busca e Agrupamento de Ações --- */
+.search-container {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.search-container label {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.search-input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+#searchId {
+    width: 200px;
+}
+
+/* --- Entradas de Texto / Dados --- */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+input[type="email"],
+select {
+    padding: 0.6rem;
+    border: 1px solid var(--cor-borda);
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: var(--cor-secundaria);
+}
+
+/* --- Fieldset e Agrupamentos do Formulário --- */
+fieldset#formFields {
+    border: 1px solid var(--cor-borda);
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+fieldset#formFields legend {
+    font-weight: bold;
+    color: var(--cor-primaria);
+    padding: 0 0.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+/* --- Blocos Relacionados (Funcionário / Cliente) --- */
+.umParaum {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.funcionario,
+.cliente {
+    background-color: var(--cor-fundo);
+    border: 1px solid var(--cor-borda);
+    padding: 1rem;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.funcionario span,
+.cliente span {
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+
+.funcionario label,
+.cliente label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.funcionario input[type="checkbox"],
+.cliente input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* --- Botões --- */
+button,
+input[type="button"] {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+button:hover,
+input[type="button"]:hover {
+    background-color: var(--cor-secundaria-hover);
+}
+
+.btn-primary {
+    background-color: var(--cor-secundaria);
+}
+
+.btn-secondary {
+    background-color: #7f8c8d;
+}
+.btn-secondary:hover {
+    background-color: #6c7a89;
+}
+
+.btn-danger {
+    background-color: var(--cor-aviso);
+}
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+.btn-save {
+    background-color: #2ecc71;
+}
+.btn-save:hover {
+    background-color: #27ae60;
+}
+
+.btn-cancel {
+    background-color: #95a5a6;
+}
+.btn-cancel:hover {
+    background-color: #7f8c8d;
+}
+
+/* --- Listagem / Tabela --- */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid var(--cor-borda);
+    padding: 0.75rem;
+    text-align: left;
+    font-size: 0.95rem;
+}
+
+th {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f4f7;
+}
+
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* --- Notificações --- */
+.message-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.message {
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border-left: 5px solid #28a745;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-left: 5px solid var(--cor-aviso);
+}
+
+.message.info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border-left: 5px solid var(--cor-secundaria);
+}
+
+/* --- Footer Semântico --- */
+footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* --- Responsividade --- */
+@media (max-width: 768px) {
+    .search-input-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #searchId {
+        width: 100%;
+    }
+
+    .funcionario,
+    .cliente {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .funcionario input,
+    .funcionario select,
+    .cliente input {
+        width: 100%;
+    }
+}

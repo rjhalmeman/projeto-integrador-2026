@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Pessoa</title>
+    <link rel="stylesheet" href="./pessoa.css">
+</head>
+
+<body>
+    <header>
+        <h1>CRUD Pessoa</h1>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Cadastro de Pessoa</h2>
+
+            <form id="pessoaForm">
+                <div class="search-container">
+                    <label for="searchId">Buscar por ID:</label>
+                    <div class="search-input-group">
+                        <input type="number" id="searchId" placeholder="Digite o ID para buscar">
+                        <button type="button" id="btnBuscar">🔍 Buscar</button>
+
+                        <button type="button" id="btnIncluir" class="btn-primary">Incluir</button>
+                        <button type="button" id="btnAlterar" class="btn-secondary"
+                            style="display: none;">Alterar</button>
+                        <button type="button" id="btnExcluir" class="btn-danger" style="display: none;">Excluir</button>
+                        <button type="button" id="btnSalvar" class="btn-save" style="display: none;">Salvar</button>
+                        <button type="button" id="btnCancelar" class="btn-cancel">Cancelar</button>
+                    </div>
+                </div>
+
+                <fieldset id="formFields">
+                    <legend>Dados da Pessoa</legend>
+
+                    <div class="form-group">
+                        <label for="nome_pessoa">Nome:</label>
+                        <input type="text" id="nome_pessoa" name="nome_pessoa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="data_nascimento">Data de Nascimento:</label>
+                        <input type="date" id="data_nascimento" name="data_nascimento">
+                    </div>
+                    <div class="form-group">
+                        <label for="endereco_pessoa">Endereço:</label>
+                        <input type="text" id="endereco_pessoa" name="endereco_pessoa" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha_pessoa">Senha:</label>
+                        <input type="password" id="senha_pessoa" name="senha_pessoa" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email_pessoa">Email:</label>
+                        <input type="email" id="email_pessoa" name="email_pessoa" required>
+                    </div>
+
+                </fieldset>
+            </form>
+            <div class="umParaum">
+                <div class="funcionario">
+                    <input type="checkbox" id="checkboxFuncionario" name="checkboxFuncionario">
+                    <span id="spanFuncionario">Funcionário</span>
+                    <select id="cargo_id_cargo" name="cargo_id_cargo" style="display: inline;">
+                        <option value="">Cargo</option>
+                    </select>
+                    <label for="salario_funcionario">  Salário</label>
+                    <input type="number" id="salario_funcionario" name="salario_funcionario" placeholder="Salário"
+                        style="display: inline;">
+                        <label for="porcentagem_comissao_funcionario"> Comissão</label>
+                    <input type="text" id="porcentagem_comissao_funcionario" name="porcentagem_comissao_funcionario"
+                        placeholder="Porcentagem Comissão" style="display: inline;">
+
+                </div>
+                <div class="cliente">
+                    <input type="checkbox" id="checkboxCliente" name="checkboxCliente">
+                    <span id="spanCliente">Cliente</span>
+                    <label for="renda_cliente">  Renda mensal</label>
+                    <input type="number" id="renda_cliente" name="renda_cliente" placeholder="Renda mensal do cliente"
+                        style="display: inline;">
+                    <label for="data_cadastro_cliente">Data de cadastro</label>
+                    <input type="date" id="data_cadastro_cliente" name="data_cadastro_cliente"
+                        placeholder="Data de cadastro do cliente" style="display: inline;">
+                </div>
+            </div>
+        </section>
+
+        <!--  //cpf_pessoa, 
+                      nome_pessoa, 
+                      data_nascimento_pessoa,
+                      endereco_pessoa,
+                      senha_pessoa, 
+                      email_pessoa 
+                      -->
+
+        <section class="list-section">
+            <div class="table-container">
+                <table id="pessoasTable">
+                    <thead>
+                        <tr>
+                            <th>CPF</th>
+                            <th>Nome</th>
+                            <th>Data Nascimento</th>
+                            <th>Endereço</th>
+                            <th>Senha</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pessoasTableBody">
+                        <!-- Dados serão carregados dinamicamente -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CRUD Pessoa</p>
+    </footer>
+
+    <div id="messageContainer" class="message-container"></div>
+
+    <script src="./pessoa.js" defer></script>
+
+</body>
+
+</html>
