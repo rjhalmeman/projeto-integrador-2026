@@ -15,8 +15,6 @@ IAs ajustadas sob medida para setores industriais específicos, trazendo mais pr
 ## 5. Computação Confidencial e Segurança Preventiva
 Novas defesas focadas em **proteger dados em uso** e **antecipar ameaças cibernéticas** com automação.
 
-## 6. Computação de Borda (Edge AI) e Hardware Especializado
-O uso de **chips dedicados, GPUs e NPUs** diretamente em dispositivos locais (como celulares e sensores) reduz a dependência de grandes data centers para tarefas rápidas.
 
 ## 8. Malha de Cibersegurança e Privacidade
 Com a expansão do uso de dados e ameaças automatizadas, a **cibersegurança** e a computação aliada à **privacidade** tornam-se prioridades estratégicas nas organizações.
@@ -63,14 +61,10 @@ Integração de sensores e dispositivos vestíveis para **monitoramento remoto c
 ## 20. Saúde Integrativa e Longevidade
 Protocolos voltados para o **envelhecimento ativo**, unindo prevenção de quedas e autonomia funcional.
 
-## 21. Fisioterapia para Longevidade
-Abordagens que combinam exercícios terapêuticos, tecnologia e acompanhamento personalizado para promover **qualidade de vida na terceira idade**.
 
 ## 22. Inteligência Artificial e Suporte Emocional
 O uso de **chatbots e algoritmos de IA** como ferramentas de primeiro contato ou suporte terapêutico complementar, levantando debates éticos e clínicos profundos.
 
-## 23. Ansiedade Digital e Hiperconectividade
-O esgotamento mental gerado pelo excesso de notificações, a **pobreza de foco** e a reação do cérebro a estímulos cotidianos interpretados como ameaças urgentes.
 
 ## 25. Neurodiversidade em Adultos
 O aumento expressivo de diagnósticos tardios de **autismo e TDAH**, exigindo novas abordagens de acolhimento e adaptação no cotidiano e no trabalho.
@@ -81,9 +75,6 @@ O esgotamento focado não só na sobrecarga física ou de tarefas, mas na **apat
 ## 27. Impressão 3D Avançada
 Confecção rápida de **guias cirúrgicos, modelos, próteses e alinhadores** diretamente no consultório.
 
-## 28. Bioimpressão 3D
-Tecnologia que utiliza **células vivas e biomateriais** para criar estruturas semelhantes a tecidos humanos, com potencial para transplantes e testes de fármacos.
-
 ## 29. Inteligência Artificial Militar
 Aplicação de sistemas autônomos, análise preditiva e **tomada de decisão assistida** em cenários de defesa e segurança nacional.
 
@@ -92,14 +83,24 @@ A **robótica avançada** combina inteligência artificial, sensores de última 
 
 
 
+
+
 --- 
 
-
-
-## 7. Eficiência Energética em Data Centers - Eduardo
+## 7. Eficiência Energética em Data Centers - Eduardo - 10/09/2026
 Data centers avançados exigem soluções massivas de **energia sustentável** e **resfriamento**, tornando a eficiência energética um pilar central da computação.
 
-
-## 24. Solidão na Era da Hiperconexão - Bruno Shiba
+## 24. Solidão na Era da Hiperconexão - Bruno Shiba - 10/09/2026
 O paradoxo de se sentir **isolado** mesmo com o acesso constante a redes sociais e comunidades virtuais globais.
 
+## 6. Computação de Borda (Edge AI) e Hardware Especializado - 15/09/2026 - Andrey
+O uso de **chips dedicados, GPUs e NPUs** diretamente em dispositivos locais (como celulares e sensores) reduz a dependência de grandes data centers para tarefas rápidas.
+
+## 23. Ansiedade Digital e Hiperconectividade - 15/09/2026 - Yasmin
+O esgotamento mental gerado pelo excesso de notificações, a **pobreza de foco** e a reação do cérebro a estímulos cotidianos interpretados como ameaças urgentes.
+
+## 21. Fisioterapia para Longevidade - Maria Macedo  - 08/10/2026
+Abordagens que combinam exercícios terapêuticos, tecnologia e acompanhamento personalizado para promover **qualidade de vida na terceira idade**.
+
+## 28. Bioimpressão 3D - Emanuelle - 08/10/2026
+Tecnologia que utiliza **células vivas e biomateriais** para criar estruturas semelhantes a tecidos humanos, com potencial para transplantes e testes de fármacos.
