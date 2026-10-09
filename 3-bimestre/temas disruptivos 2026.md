@@ -6,9 +6,6 @@
 ## 2. IA Física
 A união entre o ambiente digital e o físico por meio de **robôs inteligentes** e **drones autônomos**.
 
-## 3. Plataformas de Supercomputação de IA
-Combinações potentes de **CPUs, GPUs e chips especializados** que elevam o poder de processamento global.
-
 ## 4. Modelos de Linguagem Específicos de Domínio (DSLMs)
 IAs ajustadas sob medida para setores industriais específicos, trazendo mais precisão que os modelos genéricos.
 
@@ -102,5 +99,9 @@ O esgotamento mental gerado pelo excesso de notificações, a **pobreza de foco*
 ## 21. Fisioterapia para Longevidade - Maria Macedo  - 08/10/2026
 Abordagens que combinam exercícios terapêuticos, tecnologia e acompanhamento personalizado para promover **qualidade de vida na terceira idade**.
 
-## 28. Bioimpressão 3D - Emanuelle - 08/10/2026
+## 28. Bioimpressão 3D - Emanuelle - 15/10/2026
 Tecnologia que utiliza **células vivas e biomateriais** para criar estruturas semelhantes a tecidos humanos, com potencial para transplantes e testes de fármacos.
+
+## 3. Plataformas de Supercomputação de IA - Hiago - 15/10/2026
+Combinações potentes de **CPUs, GPUs e chips especializados** que elevam o poder de processamento global.
+
