@@ -1,0 +1,1 @@
+Tempo destinado ao desenvolvimento dos relatórios individuais.

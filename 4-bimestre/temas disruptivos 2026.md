@@ -12,7 +12,6 @@ IAs ajustadas sob medida para setores industriais específicos, trazendo mais pr
 ## 5. Computação Confidencial e Segurança Preventiva
 Novas defesas focadas em **proteger dados em uso** e **antecipar ameaças cibernéticas** com automação.
 
-
 ## 8. Malha de Cibersegurança e Privacidade
 Com a expansão do uso de dados e ameaças automatizadas, a **cibersegurança** e a computação aliada à **privacidade** tornam-se prioridades estratégicas nas organizações.
 
@@ -58,10 +57,8 @@ Integração de sensores e dispositivos vestíveis para **monitoramento remoto c
 ## 20. Saúde Integrativa e Longevidade
 Protocolos voltados para o **envelhecimento ativo**, unindo prevenção de quedas e autonomia funcional.
 
-
 ## 22. Inteligência Artificial e Suporte Emocional
 O uso de **chatbots e algoritmos de IA** como ferramentas de primeiro contato ou suporte terapêutico complementar, levantando debates éticos e clínicos profundos.
-
 
 ## 25. Neurodiversidade em Adultos
 O aumento expressivo de diagnósticos tardios de **autismo e TDAH**, exigindo novas abordagens de acolhimento e adaptação no cotidiano e no trabalho.
