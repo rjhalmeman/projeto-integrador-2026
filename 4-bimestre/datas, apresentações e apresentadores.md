@@ -32,7 +32,7 @@
 
 2026-07-08 - MARIANA CRISTINA ALMEIDA==>Backend - Odonto Top
 
-3º bimestre
+## 3º bimestre
 
 2026-08-18 - SAMARA ==> Principal regra de negócio - Gym IO
 
@@ -42,28 +42,34 @@
 
 2026-08-20 - JOAO VITOR MENDES BOZZ==> Principal regra de negócio - Selff
 
-ANDREI ABNER DOS SANTOS ==>
+2026-09-10 - BRUNO ARRUDA SHIBA ==> Solidão na Era da Hiperconexão
+
+2026-09-10 - EDUARDO LORENZO NOVAIS CHELIGA ==> Eficiência Energética em Data Centers
+
+2026-10-08 - MARIA EDUARDA MACEDO DE SOUZA ==> Fisioterapia para Longevidade
+
+2026-09-15 ANDREI ABNER DOS SANTOS ==> Computação de Borda (Edge AI) e Hardware Especializado
+
+2026-09-15 - YASMYM CRYSTINNY DA SILVA LEMES ==> Ansiedade Digital e Hiperconectividade
+
+## 4º bimestre
+
+2026-10-15 - EMANUELLE DE BRITO MOURA SANTOS ==> Bioimpressão 3d
+
+2026-10-15 - HIAGO GIMENEZ VIEIRA ==> Plataformas de Supercomputação de IA
+
 
 ANNA LUISA DELCONTE DA COSTA FERREIRA ==>
 
 ANTONIO TEIXEIRA DE OLIVEIRA NETO ==>
 
-2026-09-10 - BRUNO ARRUDA SHIBA ==> Solidão na Era da Hiperconexão
-
 EMANUEL ALVES DE SOUZA ==>
-
-EMANUELLE DE BRITO MOURA SANTOS ==>
 
 EMILLY DAMASCENO WALTER ==>
 
-ERICK LEMES DA SILVA ==>
-
-HIAGO GIMENEZ VIEIRA ==> Plataformas de Supercomputação de IA
-
 JOSE EDUARDO CORDEIRO DOS SANTOS ==>
 
-MARIA EDUARDA MACEDO DE SOUZA ==>
+ERICK LEMES DA SILVA ==>
 
-2026-09-10 - EDUARDO LORENZO NOVAIS CHELIGA ==> Eficiência Energética em Data Centers
 
-YASMYM CRYSTINNY DA SILVA LEMES ==>
+
