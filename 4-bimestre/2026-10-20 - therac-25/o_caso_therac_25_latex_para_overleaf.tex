@@ -1,0 +1,142 @@
+\documentclass[12pt, a4paper]{article}
+
+% Configuração de margens e espaçamento
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{setspace}
+\singlespacing % Espaçamento simples
+
+% Suporte a fontes e idioma (compatível com XeLaTeX e LuaLaTeX no Overleaf)
+\usepackage{fontspec}
+\usepackage[portuguese, english, bidi=basic, provide=*]{babel}
+\babelprovide[import, onchar=ids fonts]{portuguese}
+\babelfont{rm}{Noto Sans}
+\babelfont{sf}{Noto Sans}
+\renewcommand{\familydefault}{\sfdefault} % Define fonte sem serifa (estilo Arial)
+
+% Pacotes para tabelas, listas e formatação
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*, noitemsep, topsep=3pt}
+\setlist[enumerate]{leftmargin=*, noitemsep, topsep=3pt}
+
+% Pacote de links e referências
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+\title{\textbf{O Caso Therac-25: Aceleradores Lineares e o Erro de Software Mais Letal da História}}
+\author{\textbf{Resumo Técnico e Executivo}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Contexto Histórico da Radioterapia e Funcionamento dos Aceleradores Lineares}
+
+\begin{itemize}
+    \item \textbf{Descoberta dos Raios X e Radioatividade:} No final do século XIX, Wilhelm Röntgen descobriu os raios X, e posteriormente os físicos Pierre e Marie Curie aprofundaram os estudos sobre elementos radioativos como o rádio.
+    \item \textbf{Surgimento da Medicina Radioncológica:} Percebeu-se que a radiação destruía tecidos vivos, mas também encolhia tumores malignos. Em novembro de 1899, os médicos Thor Stenbeck e Tage Sjögren realizaram o primeiro tratamento bem-sucedido de câncer de pele por meio de radiação.
+    \item \textbf{Aceleradores Lineares (Década de 1950):} Equipamentos desenvolvidos para acelerar elétrons a velocidades próximas à da luz para tratamentos de saúde.
+    \item \textbf{Modos de Operação do Acelerador:}
+    \begin{itemize}
+        \item \textbf{Modo de Elétrons:} O feixe de elétrons atinge diretamente a pele do paciente, sendo indicado para \textbf{tumores superficiais}.
+        \item \textbf{Modo de Fótons (Raios X):} Os elétrons colidem com um alvo metálico de alta densidade (como o tungstênio), gerando raios X de alta energia capazes de atingir \textbf{tumores profundos}.
+    \end{itemize}
+\end{itemize}
+
+\section{A Linha Therac: A Transição da Segurança por Hardware para Software}
+
+\begin{itemize}
+    \item \textbf{Entrada da AECL no Mercado Médico:} Na década de 1970, a \textit{Atomic Energy of Canada Limited} (AECL), estatal canadense do setor nuclear, ingressou no mercado de equipamentos médicos.
+    \item \textbf{Therac-6 e Therac-20:}
+    \begin{itemize}
+        \item O \textbf{Therac-6} operava apenas no modo elétrons e possuía rigorosas travas mecânicas e sensores físicos independentes (\textbf{segurança baseada em hardware}).
+        \item O \textbf{Therac-20} introduziu o modo duplo (elétrons e fótons), mantendo integralmente os mecanismos físicos de intertravamento.
+    \end{itemize}
+    \item \textbf{Therac-25 (1983):}
+    \begin{itemize}
+        \item Lançado com a proposta revolucionária de \textbf{segurança baseada exclusivamente em software}.
+        \item As travas mecânicas e sensores físicos de redundância foram totalmente removidos, delegando a responsabilidade de checagem ao minicomputador \textbf{PDP-11}.
+        \item O equipamento realizou mais de 20.000 tratamentos iniciais sem falhas registradas, gerando uma falsa sensação de confiabilidade absoluta.
+    \end{itemize}
+\end{itemize}
+
+\section{Cronologia dos Acidentes e Sobredosagens de Radiação}
+
+\begin{table}[htbp]
+\centering
+\small
+\begin{tabularx}{\textwidth}{l l p{2.8cm} X}
+\toprule
+\textbf{Data} & \textbf{Vítima / Local} & \textbf{Dose Recebida} & \textbf{Consequências e Diagnóstico} \\
+\midrule
+\textbf{03/06/1985} & \textbf{Catherine Brown} (61) \newline Geórgia, EUA & 20.000 rads \newline \textit{(Prescrito: 200)} & Necrose severa no peito e costas. A fabricante (AECL) negou a falha no equipamento. Óbito posterior. \\
+\addlinespace
+\textbf{26/07/1985} & \textbf{Frances Rio} (40) \newline Ontário, Canadá & $\sim$17.000 rads & Exibiu o erro \textit{Malfunction 54}. Operador pressionou "P" 4 vezes. Destruição do quadril e óbito. \\
+\addlinespace
+\textbf{03/12/1985} & \textbf{Paciente Anônima} \newline Washington, EUA & $\sim$14.000 rads & Necrose crônica e paralisia. Faleceu 2 meses após o incidente. A AECL negou o problema. \\
+\addlinespace
+\textbf{21/03/1986} & \textbf{Vonnie Ray Cox} (33) \newline Tyler, Texas, EUA & $\sim$25.000 rads & Digitação rápida ($<$ 8s) causou o erro \textit{Malfunction 54}. Paralisia severa e óbito em 5 meses. \\
+\addlinespace
+\textbf{11/04/1986} & \textbf{Verdon Kidd} (66) \newline Tyler, Texas, EUA & Overdose massiva & Repetição do erro de digitação rápida. Lesão cerebral profunda e óbito em 3 semanas. \\
+\addlinespace
+\textbf{17/01/1987} & \textbf{Glen Dodd} (65) \newline Washington, EUA & 8.000--10.000 rads & Erro de \textit{Flatness} por estouro de variável de 8 bits. Faleceu em abril de 1987. \\
+\bottomrule
+\end{tabularx}
+\caption{Cronologia das falhas graves e sobredosagens do acelerador Therac-25.}
+\label{tab:cronologia}
+\end{table}
+
+\section{Análise Técnica dos Erros de Software}
+
+\subsection{Condição de Corrida (Race Condition) -- \textit{Malfunction 54}}
+\begin{itemize}
+    \item \textbf{Ajuste de Modo e Tempo de Espera:} O mecanismo físico para alternar o disco giratório entre o modo elétrons e o modo fótons levava exatamente \textbf{8 segundos}.
+    \item \textbf{Comunicação por Variáveis Globais:} As tarefas do sistema operacional no PDP-11 comunicavam-se por meio de variáveis globais na memória RAM (como a variável \texttt{MOS} -- \textit{Mode Energy Offset}).
+    \item \textbf{Falha na Lógica de Leitura:} Durante os 8 segundos em que o disco girava, a rotina de controle do disco ignorava novas atualizações na memória RAM.
+    \item \textbf{A Origem do Erro:}
+    \begin{enumerate}
+        \item Se o operador selecionasse o modo X (raios X) por engano e corrigisse para E (elétrons) usando a tecla de seta para cima e pressionando \textit{Enter} \textbf{em menos de 8 segundos};
+        \item A rotina do teclado atualizava a variável na RAM, mas a rotina do disco não lia a alteração;
+        \item A interface indicava modo elétrons (baixa potência sem o alvo metálico), mas o sistema disparava a potência máxima de fótons sem a atenuação física;
+        \item A máquina descarregava radiação pura em intensidade máxima sobre o paciente.
+    \end{enumerate}
+    \item \textbf{Uso Incorreto da Tecla "P":} A mensagem \textit{Malfunction 54} vinha acompanhada do aviso \textit{"No Dose"}. Conforme orientava o manual, os operadores pressionavam a tecla "P" (\textit{Proceed}) para prosseguir, aplicando consecutivas cargas maciças de radiação.
+\end{itemize}
+
+\subsection{Estouro de Inteiro (Integer Overflow) -- \textit{Erro de Flatness}}
+\begin{itemize}
+    \item \textbf{Monitoramento de Uniformidade:} O sistema utilizava um contador para monitorar falhas de uniformidade do feixe (\textit{flatness}).
+    \item \textbf{Limitação da Variável:} O programador definiu uma variável de apenas \textbf{8 bits} para esse contador, a qual só suporta valores entre \textbf{0 e 255}.
+    \item \textbf{A Ocorrência do Overflow:} Na 256ª checagem com falha de uniformidade, ocorria um \textbf{estouro de inteiro (\textit{integer overflow})}, fazendo o contador retornar a zero ($256 \bmod 256 = 0$).
+    \item \textbf{Liberação Indevida:} Ao ler o valor zero, o programa interpretava incorretamente que não havia erros de uniformidade e liberava a descarga total de radiação sobre o paciente.
+\end{itemize}
+
+\section{Investigação Regulatória e Resposta da AECL}
+
+\begin{itemize}
+    \item \textbf{Investigação Independente:} O físico hospitalar \textbf{Fritz Jaeger}, no Texas, investigou o sistema autonomamente até conseguir reproduzir o erro \textit{Malfunction 54}, provando que a falha dependia da agilidade do operador ao digitar.
+    \item \textbf{Ações Iniciais da AECL:} A fabricante minimizou os acidentes e chegou a propor como solução paliativa a remoção da tecla de seta para cima e a aplicação de fita isolante no teclado.
+    \item \textbf{Intervenção da FDA:}
+    \begin{itemize}
+        \item Em \textbf{26 de maio de 1986}, a \textit{Food and Drug Administration} (FDA) declarou o Therac-25 officially defeituoso e ordenou a suspensão do seu uso nos EUA.
+        \item Exigiu um \textbf{Plano de Ação Corretiva (CAP)}, forçando a AECL a implementar 23 correções de software e reintroduzir pelo menos 6 dispositivos de segurança baseados em \textbf{hardware}.
+    \end{itemize}
+\end{itemize}
+
+\section{Negligência Profissional e Lições para a Engenharia de Software}
+
+\begin{itemize}
+    \item \textbf{Desenvolvedor Único:} Todo o código do Therac-25 foi projetado, escrito e testado por um \textbf{único programador}, cuja identidade permanece sob sigilo.
+    \item \textbf{Ausência de Processos de Qualidade:} Não foram realizados testes independentes, auditorias de código ou verificações formais de garantia de qualidade (\textit{Quality Assurance}).
+    \item \textbf{Isenção de Responsabilidade Criminal:} Nenhum executivo ou desenvolvedor foi condenado criminalmente. A AECL foi posteriormente privatizada e renomeada como \textit{Theratronics International}.
+    \item \textbf{Lição Fundamental:} O caso Therac-25 consolidou-se como o maior alerta da engenharia de software médica: \textbf{desenvolvedores não escrevem apenas linhas de código; escrevem consequências diretas para a vida humana}.
+\end{itemize}
+
+\end{document}
