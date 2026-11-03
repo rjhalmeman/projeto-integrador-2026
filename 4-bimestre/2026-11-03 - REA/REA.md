@@ -9,7 +9,7 @@ Vídeo 2: https://www.youtube.com/watch?v=Vkcm5k7BtXw (Escola de aplicativos)
 Vídeo 3:https://www.youtube.com/watch?v=-soAkLdbNfY (código fonte TV)
 
 
-# Lembre-se sempre "desesperar-se sempre com calma"...
+# Dica permanente: "desesperar-se sempre com calma"...
 
 
 
